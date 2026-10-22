@@ -1,0 +1,7 @@
+{
+  "source": "../seed-12345-run/sprite_happy_rgba_00001_.png",
+  "source_sha256": "a9a64ed917502482ee6001675b70fb9b19b341cc75026cda9a4155c497bc6972",
+  "output": "seed-12345-sprite-happy-alpha.png",
+  "output_sha256": "86ab73ee7505ea07a519fa0a213cbb233a8ae878ef377e6051c959041c462eb3",
+  "operation": "Exact extraction of channel A as grayscale L; no threshold, resize, smoothing or retouch."
+}

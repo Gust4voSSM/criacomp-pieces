@@ -16,6 +16,8 @@ São cinco imagens geradas ao todo: uma no Spaces e quatro na Modal. O download 
 
 O primeiro teste na Modal levou 107,44 s; o segundo, com apenas uma imagem nova, 79,34 s. Ambos incluem a inicialização do ComfyUI e excluem o download inicial dos modelos e a montagem do ambiente. A troca da seed da pose de 1 para 12345 acompanhou o sorriso e o aceno pedidos. A investigação local e o [relato no Diffusers](https://github.com/huggingface/diffusers/issues/14824) sustentam a hipótese de noise replay; a recarga de referências PNG de 8 bits também difere do primeiro teste. A API de produção não foi alterada por esse teste isolado.
 
+A [visualização do alpha da pose alegre](evidencias/alpha-original/) preserva os valores originais do canal A em tons de cinza.
+
 ## Downloads por geração
 
 - [Hugging Face Spaces — ZIP](https://raw.githubusercontent.com/Gust4voSSM/criacomp-pieces/main/experiments/vn-qwen-image-21/evidencias/huggingface-spaces-run/huggingface-spaces-run.zip)
