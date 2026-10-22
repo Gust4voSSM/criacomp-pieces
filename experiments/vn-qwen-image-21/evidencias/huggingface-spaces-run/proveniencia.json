@@ -1,0 +1,20 @@
+{
+  "source_file": "C:/Users/gugu9/Downloads/image.png",
+  "source_download_url": "https://qwen-qwen-image-2-1.hf.space/gradio_api/file=/tmp/gradio/fcaaa3e9536ecf84051d2dd8f6af46ec43640b94a6647af90bcddfa59d88d32a/image.png",
+  "space_url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
+  "source_confirmation": "Windows Zone.Identifier HostUrl points to the Qwen Space; author identified the experiment and RGB references.",
+  "files": [
+    {
+      "name": "sprite_pose1.png",
+      "sha256": "6b098ea46dd31e8375764fccbfdd45ae5c78249279e59c46527b5e6094706e30",
+      "size": [
+        832,
+        1248
+      ],
+      "mode": "RGBA",
+      "metadata": []
+    }
+  ],
+  "references": "RGB references from the previous ComfyUI Cloud experiment, as reported by the author. Exact input files were not independently identified.",
+  "prompt_and_parameters": "Not recovered: PNG contains no text metadata. No prompt, seed or workflow is inferred from Modal executions."
+}
