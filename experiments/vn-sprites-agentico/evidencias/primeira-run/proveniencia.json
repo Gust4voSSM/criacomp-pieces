@@ -1,0 +1,47 @@
+{
+  "source_archive": "comfy-export-2026-10-20-e24e4acd.zip",
+  "export_date": "2026-10-20",
+  "archive_sha256": "b78db7c64f4becb30b51119029b77bc787f8ef39cc5b46bfcdc96b1bfcdfcf53",
+  "files": [
+    {
+      "name": "charsheet_front_00001_.png",
+      "sha256": "da994a5ddbec3c3caeeacbbcdf5867fe12f18ff64231f2c6b8c344964e54942c",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ]
+    },
+    {
+      "name": "charsheet_side_00001_.png",
+      "sha256": "d339b39baaf3f5eee4a3bc6e5d840184b63b6d0d84a33e0c95859c57daa696f5",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ]
+    },
+    {
+      "name": "sprite_pose1_00001_.png",
+      "sha256": "03b4ef5122d0c9a13f6547c23bf0d14c75d2d0a8e08c2677da78b3a3bc0f84a8",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ]
+    },
+    {
+      "name": "sprite_pose2_00001_.png",
+      "sha256": "44eace62a4bb8a7e626269a9a5eb01f74ebb60bef32bea4c4d6a1f8b2ad1994b",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ]
+    },
+    {
+      "name": "sprite_pose3_00001_.png",
+      "sha256": "15e9f41f4658efed8bd82cc20f90bc2dad181b1f895ea066a8da627e12769399",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ]
+    }
+  ]
+}

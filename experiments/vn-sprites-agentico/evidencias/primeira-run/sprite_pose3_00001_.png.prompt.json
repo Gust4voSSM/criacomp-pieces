@@ -1,0 +1,888 @@
+{
+  "1057710891344941": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1
+    }
+  },
+  "1187139905519672": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "793068364793590",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "1375608634415251": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "3808566513788566",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "1430490508900575": {
+    "_meta": {
+      "title": "Prompt - Pose 2 (surprised)"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, surprised shocked expression, eyes wide open, both hands raised near chest, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+    }
+  },
+  "1446330486553930": {
+    "_meta": {
+      "title": "Flux2Scheduler"
+    },
+    "class_type": "Flux2Scheduler",
+    "inputs": {
+      "height": 1152,
+      "steps": 20,
+      "width": 768
+    }
+  },
+  "1507970616474121": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "1622102185956968",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "2299280902333636",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "1622102185956968": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "2684491369047398",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "1622342273288652": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite_pose3",
+      "images": [
+        "3467115184249206",
+        0
+      ]
+    }
+  },
+  "16830001323836": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "2728208234168526",
+        0
+      ]
+    }
+  },
+  "1797842311622212": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "3562126295404813",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "1829372125031897": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "3694343468051242",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "210869494129373",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "1866846567673215": {
+    "_meta": {
+      "title": "VAE Codificar"
+    },
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "315792401207433",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "1897560592918960": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "1430490508900575",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "2036101074854584": {
+    "_meta": {
+      "title": "Prompt - Side view"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight, left side profile view, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, consistent character design"
+    }
+  },
+  "208685933283471": {
+    "_meta": {
+      "title": "Carregar VAE"
+    },
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "flux2-vae.safetensors"
+    }
+  },
+  "210869494129373": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 101
+    }
+  },
+  "2178467879362857": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "3133589768887434",
+        0
+      ],
+      "image": [
+        "221317742756508",
+        0
+      ]
+    }
+  },
+  "221317742756508": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "1829372125031897",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "2284027340414924": {
+    "_meta": {
+      "title": "FLUX.2 Dev (shared)"
+    },
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "flux2_dev_fp8mixed.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2299280902333636": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2
+    }
+  },
+  "2440663582766253": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "3570489211938845",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "2684491369047398": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "2763149762795196",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "2728208234168526": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "58281155708456",
+        0
+      ]
+    }
+  },
+  "2763149762795196": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "2036101074854584",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "3027930362007574": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "443676707205338",
+        0
+      ]
+    }
+  },
+  "3113597995854167": {
+    "_meta": {
+      "title": "VAE Codificar"
+    },
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "3154615174996225",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "3133589768887434": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "4490301713047906",
+        0
+      ]
+    }
+  },
+  "3154615174996225": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "1507970616474121",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "315792401207433": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "4071568762139654",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "3231990973940234": {
+    "_meta": {
+      "title": "Prompt - Front view"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight facing the camera, front view, arms slightly away from body, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, highly detailed"
+    }
+  },
+  "3320455701449308": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "3231990973940234",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "3412725126373294": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 102
+    }
+  },
+  "3467115184249206": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "3027930362007574",
+        0
+      ],
+      "image": [
+        "4293789365817089",
+        0
+      ]
+    }
+  },
+  "3480810410188413": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite_pose2",
+      "images": [
+        "721075887333639",
+        0
+      ]
+    }
+  },
+  "3530903061970294": {
+    "_meta": {
+      "title": "KSamplerSelect"
+    },
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "3562126295404813": {
+    "_meta": {
+      "title": "Prompt - Pose 3 (sad)"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, sad teary crying expression, looking down slightly, hands clasped together in front, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+    }
+  },
+  "3570489211938845": {
+    "_meta": {
+      "title": "Prompt - Pose 1 (happy)"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, cheerful happy smiling expression, waving one hand, friendly standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+    }
+  },
+  "3677941290379756": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "4006286758890440",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "3694343468051242": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "1375608634415251",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "3808566513788566": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "2440663582766253",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "3845935403831722": {
+    "_meta": {
+      "title": "Carregar CLIP"
+    },
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "mistral_3_small_flux2_fp8.safetensors",
+      "device": "default",
+      "type": "flux2"
+    }
+  },
+  "3887306049913333": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "charsheet_front",
+      "images": [
+        "315792401207433",
+        0
+      ]
+    }
+  },
+  "4006286758890440": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "4174931571544185",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "4071568762139654": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "435279269379999",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "1057710891344941",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "4153769799948912": {
+    "_meta": {
+      "title": "Empty Flux 2 Latent"
+    },
+    "class_type": "EmptyFlux2LatentImage",
+    "inputs": {
+      "batch_size": 1,
+      "height": 1152,
+      "width": 768
+    }
+  },
+  "4174931571544185": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "1797842311622212",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "4293789365817089": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "492235944544572",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "435279269379999": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "3320455701449308",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "4355613519927032": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite_pose1",
+      "images": [
+        "2178467879362857",
+        0
+      ]
+    }
+  },
+  "4401553452149677": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "589124576158887",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "3412725126373294",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "443676707205338": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "4293789365817089",
+        0
+      ]
+    }
+  },
+  "4490301713047906": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "221317742756508",
+        0
+      ]
+    }
+  },
+  "492235944544572": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "3677941290379756",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "852949517389928",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "58281155708456": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "4401553452149677",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "589124576158887": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "1187139905519672",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "608182315055741": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "charsheet_side",
+      "images": [
+        "3154615174996225",
+        0
+      ]
+    }
+  },
+  "721075887333639": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "16830001323836",
+        0
+      ],
+      "image": [
+        "58281155708456",
+        0
+      ]
+    }
+  },
+  "793068364793590": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "1897560592918960",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "852949517389928": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 103
+    }
+  },
+  "885430563167277": {
+    "_meta": {
+      "title": "Carregar Modelo de Remoção de Fundo"
+    },
+    "class_type": "LoadBackgroundRemovalModel",
+    "inputs": {
+      "bg_removal_name": "birefnet.safetensors"
+    }
+  }
+}

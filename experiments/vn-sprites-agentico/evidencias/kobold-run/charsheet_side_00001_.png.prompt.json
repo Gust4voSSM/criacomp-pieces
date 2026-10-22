@@ -1,0 +1,983 @@
+{
+  "1057710891344941": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1
+    }
+  },
+  "1068388843986227": {
+    "_meta": {
+      "title": "Prompt text - Pose 3 (sad)"
+    },
+    "class_type": "StringConcatenate",
+    "inputs": {
+      "delimiter": ", ",
+      "string_a": [
+        "1774237274616552",
+        0
+      ],
+      "string_b": "sad teary crying expression, looking down slightly, hands clasped together in front, standing pose, visual novel sprite"
+    }
+  },
+  "1446330486553930": {
+    "_meta": {
+      "title": "Flux2Scheduler"
+    },
+    "class_type": "Flux2Scheduler",
+    "inputs": {
+      "height": 1152,
+      "steps": 20,
+      "width": 768
+    }
+  },
+  "1507970616474121": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "1622102185956968",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "2299280902333636",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "151048315772568": {
+    "_meta": {
+      "title": "Prompt text - Side view"
+    },
+    "class_type": "StringConcatenate",
+    "inputs": {
+      "delimiter": ", ",
+      "string_a": [
+        "1774237274616552",
+        0
+      ],
+      "string_b": "standing straight, left side profile view, neutral calm expression, full-body visual novel character reference, consistent character design"
+    }
+  },
+  "1622102185956968": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "2684491369047398",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "1774237274616552": {
+    "_meta": {
+      "title": "Common Character Description (shared)"
+    },
+    "class_type": "StringConstantMultiline",
+    "inputs": {
+      "string": "A young male human-kobold hybrid of average height, with dark skin and a blend of human and reptilian features. He wears traditional Japanese medieval fantasy clothing, including layered robes, a short kimono, a tied sash, and loose-fitting hakama pants. His outfit features intricate fabric details, traditional Japanese patterns, and subtle fantasy-inspired accessories. A balanced mix of humanoid and kobold characteristics",
+      "strip_newlines": true
+    }
+  },
+  "1866846567673215": {
+    "_meta": {
+      "title": "VAE Codificar"
+    },
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "315792401207433",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "2036101074854584": {
+    "_meta": {
+      "title": "Prompt - Side view"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": [
+        "151048315772568",
+        0
+      ]
+    }
+  },
+  "2077442686953337": {
+    "_meta": {
+      "title": "Prompt text - Pose 1 (happy)"
+    },
+    "class_type": "StringConcatenate",
+    "inputs": {
+      "delimiter": ", ",
+      "string_a": [
+        "1774237274616552",
+        0
+      ],
+      "string_b": "cheerful happy smiling expression, waving one hand, friendly standing pose, visual novel sprite"
+    }
+  },
+  "208685933283471": {
+    "_meta": {
+      "title": "Carregar VAE"
+    },
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "flux2-vae.safetensors"
+    }
+  },
+  "2284027340414924": {
+    "_meta": {
+      "title": "FLUX.2 Dev (shared)"
+    },
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "flux2_dev_fp8mixed.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2299280902333636": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2
+    }
+  },
+  "2684491369047398": {
+    "_meta": {
+      "title": "ReferenceLatent"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "2763149762795196",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "2763149762795196": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "2036101074854584",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "3113597995854167": {
+    "_meta": {
+      "title": "VAE Codificar"
+    },
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "3154615174996225",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "3154615174996225": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "1507970616474121",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "315792401207433": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "4071568762139654",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "3231990973940234": {
+    "_meta": {
+      "title": "Prompt - Front view"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": [
+        "3541717830243530",
+        0
+      ]
+    }
+  },
+  "3320455701449308": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "3231990973940234",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "3504385534062418": {
+    "_meta": {
+      "title": "Prompt text - Pose 2 (surprised)"
+    },
+    "class_type": "StringConcatenate",
+    "inputs": {
+      "delimiter": ", ",
+      "string_a": [
+        "1774237274616552",
+        0
+      ],
+      "string_b": "surprised shocked expression, eyes wide open, both hands raised near chest, standing pose, visual novel sprite"
+    }
+  },
+  "3530903061970294": {
+    "_meta": {
+      "title": "KSamplerSelect"
+    },
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "3541717830243530": {
+    "_meta": {
+      "title": "Prompt text - Front view"
+    },
+    "class_type": "StringConcatenate",
+    "inputs": {
+      "delimiter": ", ",
+      "string_a": [
+        "1774237274616552",
+        0
+      ],
+      "string_b": "standing straight facing the camera, front view, arms slightly away from body, neutral calm expression, full-body visual novel character reference, highly detailed"
+    }
+  },
+  "3845935403831722": {
+    "_meta": {
+      "title": "Carregar CLIP"
+    },
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "mistral_3_small_flux2_fp8.safetensors",
+      "device": "default",
+      "type": "flux2"
+    }
+  },
+  "3887306049913333": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "charsheet_front",
+      "images": [
+        "315792401207433",
+        0
+      ]
+    }
+  },
+  "4071568762139654": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "435279269379999",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "1057710891344941",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "4153769799948912": {
+    "_meta": {
+      "title": "Empty Flux 2 Latent"
+    },
+    "class_type": "EmptyFlux2LatentImage",
+    "inputs": {
+      "batch_size": 1,
+      "height": 1152,
+      "width": 768
+    }
+  },
+  "435279269379999": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "3320455701449308",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "608182315055741": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "charsheet_side",
+      "images": [
+        "3154615174996225",
+        0
+      ]
+    }
+  },
+  "885430563167277": {
+    "_meta": {
+      "title": "Carregar Modelo de Remoção de Fundo"
+    },
+    "class_type": "LoadBackgroundRemovalModel",
+    "inputs": {
+      "bg_removal_name": "birefnet.safetensors"
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:1": {
+    "_meta": {
+      "title": "Encode Pose Prompt"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": [
+        "3504385534062418",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:10": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:9",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:11": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:10",
+        0
+      ],
+      "image": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:8",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:12": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite",
+      "images": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:11",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:2": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:1",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:3": {
+    "_meta": {
+      "title": "Ref Front"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:2",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:4": {
+    "_meta": {
+      "title": "Ref Side"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:3",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:5": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:4",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:6": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:7": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:5",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:6",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:8": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:7",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:9": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2003:8",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:1": {
+    "_meta": {
+      "title": "Encode Pose Prompt"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": [
+        "1068388843986227",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:10": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:9",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:11": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:10",
+        0
+      ],
+      "image": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:8",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:12": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite",
+      "images": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:11",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:2": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:1",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:3": {
+    "_meta": {
+      "title": "Ref Front"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:2",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:4": {
+    "_meta": {
+      "title": "Ref Side"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:3",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:5": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:4",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:6": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:7": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:5",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:6",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:8": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:7",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:9": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "insert:850c370c9d22f549a4c610d3eddc13c9:root:node:2004:8",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:1": {
+    "_meta": {
+      "title": "Encode Pose Prompt"
+    },
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "3845935403831722",
+        0
+      ],
+      "text": [
+        "2077442686953337",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:10": {
+    "_meta": {
+      "title": "Inverter Máscara"
+    },
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:9",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:11": {
+    "_meta": {
+      "title": "Unir Imagem com Alfa"
+    },
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "alpha": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:10",
+        0
+      ],
+      "image": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:8",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:12": {
+    "_meta": {
+      "title": "Salvar Imagem"
+    },
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "sprite",
+      "images": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:11",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:2": {
+    "_meta": {
+      "title": "FluxGuidance"
+    },
+    "class_type": "FluxGuidance",
+    "inputs": {
+      "conditioning": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:1",
+        0
+      ],
+      "guidance": 4.0
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:3": {
+    "_meta": {
+      "title": "Ref Front"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:2",
+        0
+      ],
+      "latent": [
+        "1866846567673215",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:4": {
+    "_meta": {
+      "title": "Ref Side"
+    },
+    "class_type": "ReferenceLatent",
+    "inputs": {
+      "conditioning": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:3",
+        0
+      ],
+      "latent": [
+        "3113597995854167",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:5": {
+    "_meta": {
+      "title": "Guia Básico"
+    },
+    "class_type": "BasicGuider",
+    "inputs": {
+      "conditioning": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:4",
+        0
+      ],
+      "model": [
+        "2284027340414924",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:6": {
+    "_meta": {
+      "title": "Ruído Aleatório"
+    },
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:7": {
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "guider": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:5",
+        0
+      ],
+      "latent_image": [
+        "4153769799948912",
+        0
+      ],
+      "noise": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:6",
+        0
+      ],
+      "sampler": [
+        "3530903061970294",
+        0
+      ],
+      "sigmas": [
+        "1446330486553930",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:8": {
+    "_meta": {
+      "title": "VAE Decodificar"
+    },
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:7",
+        0
+      ],
+      "vae": [
+        "208685933283471",
+        0
+      ]
+    }
+  },
+  "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:9": {
+    "_meta": {
+      "title": "Remover Fundo"
+    },
+    "class_type": "RemoveBackground",
+    "inputs": {
+      "bg_removal_model": [
+        "885430563167277",
+        0
+      ],
+      "image": [
+        "insert:cd8c0eaffa124b9b8bd427d4779eb3d0:root:node:2002:8",
+        0
+      ]
+    }
+  }
+}

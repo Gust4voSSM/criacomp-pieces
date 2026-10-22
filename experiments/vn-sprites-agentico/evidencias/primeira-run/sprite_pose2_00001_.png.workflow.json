@@ -1,0 +1,3446 @@
+{
+  "config": {},
+  "extra": {
+    "VHS_KeepIntermediate": true,
+    "VHS_MetadataImage": true,
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "ds": {
+      "offset": [
+        624.1688233687066,
+        961.465150891244
+      ],
+      "scale": 0.1683997853299624
+    },
+    "frontendVersion": "1.57.0"
+  },
+  "groups": [],
+  "id": "57989065-371d-4320-92d8-58b6c745cd83",
+  "last_link_id": 4481561717557891,
+  "last_node_id": 4490301713047906,
+  "links": [
+    [
+      3225706339731021,
+      3845935403831722,
+      0,
+      3231990973940234,
+      0,
+      "CLIP"
+    ],
+    [
+      4324634216784035,
+      3231990973940234,
+      0,
+      3320455701449308,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      370656290214759,
+      2284027340414924,
+      0,
+      435279269379999,
+      0,
+      "MODEL"
+    ],
+    [
+      3137395550475854,
+      3320455701449308,
+      0,
+      435279269379999,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      4219028264088328,
+      1057710891344941,
+      0,
+      4071568762139654,
+      0,
+      "NOISE"
+    ],
+    [
+      4106989837769212,
+      435279269379999,
+      0,
+      4071568762139654,
+      1,
+      "GUIDER"
+    ],
+    [
+      3906689559134931,
+      3530903061970294,
+      0,
+      4071568762139654,
+      2,
+      "SAMPLER"
+    ],
+    [
+      2862839734078285,
+      1446330486553930,
+      0,
+      4071568762139654,
+      3,
+      "SIGMAS"
+    ],
+    [
+      3867537411443694,
+      4153769799948912,
+      0,
+      4071568762139654,
+      4,
+      "LATENT"
+    ],
+    [
+      1512011108371027,
+      4071568762139654,
+      0,
+      315792401207433,
+      0,
+      "LATENT"
+    ],
+    [
+      4100777794697473,
+      208685933283471,
+      0,
+      315792401207433,
+      1,
+      "VAE"
+    ],
+    [
+      571214232914023,
+      315792401207433,
+      0,
+      3887306049913333,
+      0,
+      "IMAGE"
+    ],
+    [
+      2686594621245299,
+      315792401207433,
+      0,
+      1866846567673215,
+      0,
+      "IMAGE"
+    ],
+    [
+      3566496164442249,
+      208685933283471,
+      0,
+      1866846567673215,
+      1,
+      "VAE"
+    ],
+    [
+      1420203739880317,
+      3845935403831722,
+      0,
+      2036101074854584,
+      0,
+      "CLIP"
+    ],
+    [
+      3596714442857094,
+      2036101074854584,
+      0,
+      2763149762795196,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      2319289920387222,
+      2763149762795196,
+      0,
+      2684491369047398,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1380920714384343,
+      1866846567673215,
+      0,
+      2684491369047398,
+      1,
+      "LATENT"
+    ],
+    [
+      786603928326058,
+      2284027340414924,
+      0,
+      1622102185956968,
+      0,
+      "MODEL"
+    ],
+    [
+      3247172643605551,
+      2684491369047398,
+      0,
+      1622102185956968,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      1490685782442411,
+      2299280902333636,
+      0,
+      1507970616474121,
+      0,
+      "NOISE"
+    ],
+    [
+      1439951175772545,
+      1622102185956968,
+      0,
+      1507970616474121,
+      1,
+      "GUIDER"
+    ],
+    [
+      4008048271115461,
+      3530903061970294,
+      0,
+      1507970616474121,
+      2,
+      "SAMPLER"
+    ],
+    [
+      4313867168819775,
+      1446330486553930,
+      0,
+      1507970616474121,
+      3,
+      "SIGMAS"
+    ],
+    [
+      3574887779912725,
+      4153769799948912,
+      0,
+      1507970616474121,
+      4,
+      "LATENT"
+    ],
+    [
+      760673857068892,
+      1507970616474121,
+      0,
+      3154615174996225,
+      0,
+      "LATENT"
+    ],
+    [
+      569461709150916,
+      208685933283471,
+      0,
+      3154615174996225,
+      1,
+      "VAE"
+    ],
+    [
+      496036877189095,
+      3154615174996225,
+      0,
+      608182315055741,
+      0,
+      "IMAGE"
+    ],
+    [
+      1410963397431360,
+      3154615174996225,
+      0,
+      3113597995854167,
+      0,
+      "IMAGE"
+    ],
+    [
+      3115699718185384,
+      208685933283471,
+      0,
+      3113597995854167,
+      1,
+      "VAE"
+    ],
+    [
+      826743370363815,
+      3845935403831722,
+      0,
+      3570489211938845,
+      0,
+      "CLIP"
+    ],
+    [
+      1418116318177146,
+      3570489211938845,
+      0,
+      2440663582766253,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1844093836899345,
+      2440663582766253,
+      0,
+      3808566513788566,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      3174675790655749,
+      1866846567673215,
+      0,
+      3808566513788566,
+      1,
+      "LATENT"
+    ],
+    [
+      610520434024511,
+      3808566513788566,
+      0,
+      1375608634415251,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1094367857752260,
+      3113597995854167,
+      0,
+      1375608634415251,
+      1,
+      "LATENT"
+    ],
+    [
+      3164283899469790,
+      2284027340414924,
+      0,
+      3694343468051242,
+      0,
+      "MODEL"
+    ],
+    [
+      791316127807410,
+      1375608634415251,
+      0,
+      3694343468051242,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      4047714279318523,
+      210869494129373,
+      0,
+      1829372125031897,
+      0,
+      "NOISE"
+    ],
+    [
+      575921716864092,
+      3694343468051242,
+      0,
+      1829372125031897,
+      1,
+      "GUIDER"
+    ],
+    [
+      1294388900301508,
+      3530903061970294,
+      0,
+      1829372125031897,
+      2,
+      "SAMPLER"
+    ],
+    [
+      3293882366390143,
+      1446330486553930,
+      0,
+      1829372125031897,
+      3,
+      "SIGMAS"
+    ],
+    [
+      3443313013327633,
+      4153769799948912,
+      0,
+      1829372125031897,
+      4,
+      "LATENT"
+    ],
+    [
+      826469235692291,
+      1829372125031897,
+      0,
+      221317742756508,
+      0,
+      "LATENT"
+    ],
+    [
+      3948854948196101,
+      208685933283471,
+      0,
+      221317742756508,
+      1,
+      "VAE"
+    ],
+    [
+      2016365951306199,
+      885430563167277,
+      0,
+      4490301713047906,
+      0,
+      "BACKGROUND_REMOVAL"
+    ],
+    [
+      2330817446352384,
+      221317742756508,
+      0,
+      4490301713047906,
+      1,
+      "IMAGE"
+    ],
+    [
+      1319056602906721,
+      4490301713047906,
+      0,
+      3133589768887434,
+      0,
+      "MASK"
+    ],
+    [
+      3946421983695848,
+      221317742756508,
+      0,
+      2178467879362857,
+      0,
+      "IMAGE"
+    ],
+    [
+      3330604769019028,
+      3133589768887434,
+      0,
+      2178467879362857,
+      1,
+      "MASK"
+    ],
+    [
+      4386817705517332,
+      2178467879362857,
+      0,
+      4355613519927032,
+      0,
+      "IMAGE"
+    ],
+    [
+      1987397267891252,
+      3845935403831722,
+      0,
+      1430490508900575,
+      0,
+      "CLIP"
+    ],
+    [
+      1334439238182250,
+      1430490508900575,
+      0,
+      1897560592918960,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      839427207395300,
+      1897560592918960,
+      0,
+      793068364793590,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      2746450132750496,
+      1866846567673215,
+      0,
+      793068364793590,
+      1,
+      "LATENT"
+    ],
+    [
+      144517337717009,
+      793068364793590,
+      0,
+      1187139905519672,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      128995384929881,
+      3113597995854167,
+      0,
+      1187139905519672,
+      1,
+      "LATENT"
+    ],
+    [
+      1798761795798633,
+      2284027340414924,
+      0,
+      589124576158887,
+      0,
+      "MODEL"
+    ],
+    [
+      2703922730628356,
+      1187139905519672,
+      0,
+      589124576158887,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      3359194561455452,
+      3412725126373294,
+      0,
+      4401553452149677,
+      0,
+      "NOISE"
+    ],
+    [
+      3053723898300268,
+      589124576158887,
+      0,
+      4401553452149677,
+      1,
+      "GUIDER"
+    ],
+    [
+      2201045477850104,
+      3530903061970294,
+      0,
+      4401553452149677,
+      2,
+      "SAMPLER"
+    ],
+    [
+      3445605281164880,
+      1446330486553930,
+      0,
+      4401553452149677,
+      3,
+      "SIGMAS"
+    ],
+    [
+      880846800617187,
+      4153769799948912,
+      0,
+      4401553452149677,
+      4,
+      "LATENT"
+    ],
+    [
+      2967940937860599,
+      4401553452149677,
+      0,
+      58281155708456,
+      0,
+      "LATENT"
+    ],
+    [
+      45176933924423,
+      208685933283471,
+      0,
+      58281155708456,
+      1,
+      "VAE"
+    ],
+    [
+      2592105497094328,
+      885430563167277,
+      0,
+      2728208234168526,
+      0,
+      "BACKGROUND_REMOVAL"
+    ],
+    [
+      1485808710082559,
+      58281155708456,
+      0,
+      2728208234168526,
+      1,
+      "IMAGE"
+    ],
+    [
+      507565973286489,
+      2728208234168526,
+      0,
+      16830001323836,
+      0,
+      "MASK"
+    ],
+    [
+      1040063351925086,
+      58281155708456,
+      0,
+      721075887333639,
+      0,
+      "IMAGE"
+    ],
+    [
+      1448605752568256,
+      16830001323836,
+      0,
+      721075887333639,
+      1,
+      "MASK"
+    ],
+    [
+      4203730846453465,
+      721075887333639,
+      0,
+      3480810410188413,
+      0,
+      "IMAGE"
+    ],
+    [
+      3993219071715005,
+      3845935403831722,
+      0,
+      3562126295404813,
+      0,
+      "CLIP"
+    ],
+    [
+      3642733689526642,
+      3562126295404813,
+      0,
+      1797842311622212,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1141065589204069,
+      1797842311622212,
+      0,
+      4174931571544185,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1951997311849180,
+      1866846567673215,
+      0,
+      4174931571544185,
+      1,
+      "LATENT"
+    ],
+    [
+      1393254984947434,
+      4174931571544185,
+      0,
+      4006286758890440,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      1497162612879857,
+      3113597995854167,
+      0,
+      4006286758890440,
+      1,
+      "LATENT"
+    ],
+    [
+      2554879859961627,
+      2284027340414924,
+      0,
+      3677941290379756,
+      0,
+      "MODEL"
+    ],
+    [
+      4481561717557891,
+      4006286758890440,
+      0,
+      3677941290379756,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      1219438317841460,
+      852949517389928,
+      0,
+      492235944544572,
+      0,
+      "NOISE"
+    ],
+    [
+      1290589976128309,
+      3677941290379756,
+      0,
+      492235944544572,
+      1,
+      "GUIDER"
+    ],
+    [
+      2370380711224449,
+      3530903061970294,
+      0,
+      492235944544572,
+      2,
+      "SAMPLER"
+    ],
+    [
+      126963573389704,
+      1446330486553930,
+      0,
+      492235944544572,
+      3,
+      "SIGMAS"
+    ],
+    [
+      2264864238251321,
+      4153769799948912,
+      0,
+      492235944544572,
+      4,
+      "LATENT"
+    ],
+    [
+      369247809706336,
+      492235944544572,
+      0,
+      4293789365817089,
+      0,
+      "LATENT"
+    ],
+    [
+      403885640243820,
+      208685933283471,
+      0,
+      4293789365817089,
+      1,
+      "VAE"
+    ],
+    [
+      2119502701363561,
+      885430563167277,
+      0,
+      443676707205338,
+      0,
+      "BACKGROUND_REMOVAL"
+    ],
+    [
+      1303577970631405,
+      4293789365817089,
+      0,
+      443676707205338,
+      1,
+      "IMAGE"
+    ],
+    [
+      1129412379676016,
+      443676707205338,
+      0,
+      3027930362007574,
+      0,
+      "MASK"
+    ],
+    [
+      3487187969669001,
+      4293789365817089,
+      0,
+      3467115184249206,
+      0,
+      "IMAGE"
+    ],
+    [
+      2455867273051741,
+      3027930362007574,
+      0,
+      3467115184249206,
+      1,
+      "MASK"
+    ],
+    [
+      2765552502724728,
+      3467115184249206,
+      0,
+      1622342273288652,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "nodes": [
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2284027340414924,
+      "inputs": [],
+      "mode": 0,
+      "order": 0,
+      "outputs": [
+        {
+          "links": [
+            370656290214759,
+            786603928326058,
+            1798761795798633,
+            2554879859961627,
+            3164283899469790
+          ],
+          "name": "MODEL",
+          "type": "MODEL"
+        }
+      ],
+      "pos": [
+        40,
+        624
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      },
+      "size": [
+        270,
+        118
+      ],
+      "title": "FLUX.2 Dev (shared)",
+      "type": "UNETLoader",
+      "widgets_values": [
+        "flux2_dev_fp8mixed.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "flux2_dev_fp8mixed.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3845935403831722,
+      "inputs": [],
+      "mode": 0,
+      "order": 1,
+      "outputs": [
+        {
+          "links": [
+            826743370363815,
+            1420203739880317,
+            1987397267891252,
+            3225706339731021,
+            3993219071715005
+          ],
+          "name": "CLIP",
+          "type": "CLIP"
+        }
+      ],
+      "pos": [
+        40,
+        1916
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      },
+      "size": [
+        270,
+        142
+      ],
+      "type": "CLIPLoader",
+      "widgets_values": [
+        "mistral_3_small_flux2_fp8.safetensors",
+        "flux2",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "mistral_3_small_flux2_fp8.safetensors",
+        "device": "default",
+        "type": "flux2"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 208685933283471,
+      "inputs": [],
+      "mode": 0,
+      "order": 2,
+      "outputs": [
+        {
+          "links": [
+            45176933924423,
+            403885640243820,
+            569461709150916,
+            3115699718185384,
+            3566496164442249,
+            3948854948196101,
+            4100777794697473
+          ],
+          "name": "VAE",
+          "type": "VAE"
+        }
+      ],
+      "pos": [
+        40,
+        1400
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "VAELoader",
+      "widgets_values": [
+        "flux2-vae.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3530903061970294,
+      "inputs": [],
+      "mode": 0,
+      "order": 3,
+      "outputs": [
+        {
+          "links": [
+            1294388900301508,
+            2201045477850104,
+            2370380711224449,
+            3906689559134931,
+            4008048271115461
+          ],
+          "name": "SAMPLER",
+          "type": "SAMPLER"
+        }
+      ],
+      "pos": [
+        40,
+        812
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "KSamplerSelect",
+      "widgets_values": [
+        "euler"
+      ],
+      "widgets_values_named": {
+        "sampler_name": "euler"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1446330486553930,
+      "inputs": [],
+      "mode": 0,
+      "order": 4,
+      "outputs": [
+        {
+          "links": [
+            126963573389704,
+            2862839734078285,
+            3293882366390143,
+            3445605281164880,
+            4313867168819775
+          ],
+          "name": "SIGMAS",
+          "type": "SIGMAS"
+        }
+      ],
+      "pos": [
+        40,
+        976
+      ],
+      "properties": {
+        "Node name for S&R": "Flux2Scheduler"
+      },
+      "size": [
+        270,
+        142
+      ],
+      "type": "Flux2Scheduler",
+      "widgets_values": [
+        20,
+        768,
+        1152
+      ],
+      "widgets_values_named": {
+        "height": 1152,
+        "steps": 20,
+        "width": 768
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4153769799948912,
+      "inputs": [],
+      "mode": 0,
+      "order": 5,
+      "outputs": [
+        {
+          "links": [
+            880846800617187,
+            2264864238251321,
+            3443313013327633,
+            3574887779912725,
+            3867537411443694
+          ],
+          "name": "LATENT",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        40,
+        1188
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyFlux2LatentImage"
+      },
+      "size": [
+        270,
+        142
+      ],
+      "type": "EmptyFlux2LatentImage",
+      "widgets_values": [
+        768,
+        1152,
+        1
+      ],
+      "widgets_values_named": {
+        "batch_size": 1,
+        "height": 1152,
+        "width": 768
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 885430563167277,
+      "inputs": [],
+      "mode": 0,
+      "order": 6,
+      "outputs": [
+        {
+          "links": [
+            2016365951306199,
+            2119502701363561,
+            2592105497094328
+          ],
+          "name": "bg_model",
+          "type": "BACKGROUND_REMOVAL"
+        }
+      ],
+      "pos": [
+        40,
+        1564
+      ],
+      "properties": {
+        "Node name for S&R": "LoadBackgroundRemovalModel"
+      },
+      "size": [
+        304.437109375,
+        94
+      ],
+      "type": "LoadBackgroundRemovalModel",
+      "widgets_values": [
+        "birefnet.safetensors"
+      ],
+      "widgets_values_named": {
+        "bg_removal_name": "birefnet.safetensors"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3231990973940234,
+      "inputs": [
+        {
+          "link": 3225706339731021,
+          "name": "clip",
+          "type": "CLIP"
+        }
+      ],
+      "mode": 0,
+      "order": 15,
+      "outputs": [
+        {
+          "links": [
+            4324634216784035
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        408.79999999999995,
+        1869
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "size": [
+        400,
+        236
+      ],
+      "title": "Prompt - Front view",
+      "type": "CLIPTextEncode",
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight facing the camera, front view, arms slightly away from body, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, highly detailed"
+      ],
+      "widgets_values_named": {
+        "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight facing the camera, front view, arms slightly away from body, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, highly detailed"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3320455701449308,
+      "inputs": [
+        {
+          "link": 4324634216784035,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 20,
+      "outputs": [
+        {
+          "links": [
+            3137395550475854
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        888.8,
+        1940
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "FluxGuidance",
+      "widgets_values": [
+        4
+      ],
+      "widgets_values_named": {
+        "guidance": 4
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 435279269379999,
+      "inputs": [
+        {
+          "link": 370656290214759,
+          "name": "model",
+          "type": "MODEL"
+        },
+        {
+          "link": 3137395550475854,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 22,
+      "outputs": [
+        {
+          "links": [
+            4106989837769212
+          ],
+          "name": "GUIDER",
+          "type": "GUIDER"
+        }
+      ],
+      "pos": [
+        1238.8,
+        1294
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "size": [
+        219.720703125,
+        82
+      ],
+      "type": "BasicGuider"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1057710891344941,
+      "inputs": [],
+      "mode": 0,
+      "order": 7,
+      "outputs": [
+        {
+          "links": [
+            4219028264088328
+          ],
+          "name": "NOISE",
+          "type": "NOISE"
+        }
+      ],
+      "pos": [
+        40,
+        60
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "size": [
+        288.79999999999995,
+        118
+      ],
+      "type": "RandomNoise",
+      "widgets_values": [
+        1,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "control_after_generate": "fixed",
+        "noise_seed": 1
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4071568762139654,
+      "inputs": [
+        {
+          "link": 4219028264088328,
+          "name": "noise",
+          "type": "NOISE"
+        },
+        {
+          "link": 4106989837769212,
+          "name": "guider",
+          "type": "GUIDER"
+        },
+        {
+          "link": 3906689559134931,
+          "name": "sampler",
+          "type": "SAMPLER"
+        },
+        {
+          "link": 2862839734078285,
+          "name": "sigmas",
+          "type": "SIGMAS"
+        },
+        {
+          "link": 3867537411443694,
+          "name": "latent_image",
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 23,
+      "outputs": [
+        {
+          "links": [
+            1512011108371027
+          ],
+          "name": "output",
+          "type": "LATENT"
+        },
+        {
+          "links": [],
+          "name": "denoised_output",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        1515,
+        852.8
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "size": [
+        271.8,
+        142
+      ],
+      "type": "SamplerCustomAdvanced"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 315792401207433,
+      "inputs": [
+        {
+          "link": 1512011108371027,
+          "name": "samples",
+          "type": "LATENT"
+        },
+        {
+          "link": 4100777794697473,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 24,
+      "outputs": [
+        {
+          "links": [
+            571214232914023,
+            2686594621245299
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        1866.8,
+        1144.4
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "size": [
+        147.073828125,
+        82
+      ],
+      "type": "VAEDecode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3887306049913333,
+      "inputs": [
+        {
+          "link": 571214232914023,
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 25,
+      "outputs": [
+        {
+          "links": [],
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        2092.6,
+        1138.4
+      ],
+      "properties": {},
+      "size": [
+        270,
+        94
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "charsheet_front"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "charsheet_front"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1866846567673215,
+      "inputs": [
+        {
+          "link": 2686594621245299,
+          "name": "pixels",
+          "type": "IMAGE"
+        },
+        {
+          "link": 3566496164442249,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 26,
+      "outputs": [
+        {
+          "links": [
+            1380920714384343,
+            1951997311849180,
+            2746450132750496,
+            3174675790655749
+          ],
+          "name": "LATENT",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        2092.6,
+        1302.4
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      },
+      "size": [
+        145.8,
+        82
+      ],
+      "type": "VAEEncode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2036101074854584,
+      "inputs": [
+        {
+          "link": 1420203739880317,
+          "name": "clip",
+          "type": "CLIP"
+        }
+      ],
+      "mode": 0,
+      "order": 13,
+      "outputs": [
+        {
+          "links": [
+            3596714442857094
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        408.79999999999995,
+        2175
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "size": [
+        400,
+        236
+      ],
+      "title": "Prompt - Side view",
+      "type": "CLIPTextEncode",
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight, left side profile view, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, consistent character design"
+      ],
+      "widgets_values_named": {
+        "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, standing straight, left side profile view, neutral calm expression, visual novel character reference, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting, consistent character design"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2763149762795196,
+      "inputs": [
+        {
+          "link": 3596714442857094,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 18,
+      "outputs": [
+        {
+          "links": [
+            2319289920387222
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        888.8,
+        2246
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "FluxGuidance",
+      "widgets_values": [
+        4
+      ],
+      "widgets_values_named": {
+        "guidance": 4
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2684491369047398,
+      "inputs": [
+        {
+          "link": 2319289920387222,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 1380920714384343,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 27,
+      "outputs": [
+        {
+          "links": [
+            3247172643605551
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        2442.6,
+        1777.2
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1622102185956968,
+      "inputs": [
+        {
+          "link": 786603928326058,
+          "name": "model",
+          "type": "MODEL"
+        },
+        {
+          "link": 3247172643605551,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 31,
+      "outputs": [
+        {
+          "links": [
+            1439951175772545
+          ],
+          "name": "GUIDER",
+          "type": "GUIDER"
+        }
+      ],
+      "pos": [
+        2769.2,
+        1209.6
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "size": [
+        219.720703125,
+        82
+      ],
+      "type": "BasicGuider"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2299280902333636,
+      "inputs": [],
+      "mode": 0,
+      "order": 8,
+      "outputs": [
+        {
+          "links": [
+            1490685782442411
+          ],
+          "name": "NOISE",
+          "type": "NOISE"
+        }
+      ],
+      "pos": [
+        40,
+        248
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "size": [
+        288.79999999999995,
+        118
+      ],
+      "type": "RandomNoise",
+      "widgets_values": [
+        2,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "control_after_generate": "fixed",
+        "noise_seed": 2
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1507970616474121,
+      "inputs": [
+        {
+          "link": 1490685782442411,
+          "name": "noise",
+          "type": "NOISE"
+        },
+        {
+          "link": 1439951175772545,
+          "name": "guider",
+          "type": "GUIDER"
+        },
+        {
+          "link": 4008048271115461,
+          "name": "sampler",
+          "type": "SAMPLER"
+        },
+        {
+          "link": 4313867168819775,
+          "name": "sigmas",
+          "type": "SIGMAS"
+        },
+        {
+          "link": 3574887779912725,
+          "name": "latent_image",
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 32,
+      "outputs": [
+        {
+          "links": [
+            760673857068892
+          ],
+          "name": "output",
+          "type": "LATENT"
+        },
+        {
+          "links": [],
+          "name": "denoised_output",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        3045.3999999999996,
+        873.5200000000001
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "size": [
+        271.8,
+        142
+      ],
+      "type": "SamplerCustomAdvanced"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3154615174996225,
+      "inputs": [
+        {
+          "link": 760673857068892,
+          "name": "samples",
+          "type": "LATENT"
+        },
+        {
+          "link": 569461709150916,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 33,
+      "outputs": [
+        {
+          "links": [
+            496036877189095,
+            1410963397431360
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        3397.2,
+        1154.76
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "size": [
+        147.073828125,
+        82
+      ],
+      "type": "VAEDecode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 608182315055741,
+      "inputs": [
+        {
+          "link": 496036877189095,
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 34,
+      "outputs": [
+        {
+          "links": [],
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        3623,
+        1148.76
+      ],
+      "properties": {},
+      "size": [
+        270,
+        94
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "charsheet_side"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "charsheet_side"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3113597995854167,
+      "inputs": [
+        {
+          "link": 1410963397431360,
+          "name": "pixels",
+          "type": "IMAGE"
+        },
+        {
+          "link": 3115699718185384,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 35,
+      "outputs": [
+        {
+          "links": [
+            128995384929881,
+            1094367857752260,
+            1497162612879857
+          ],
+          "name": "LATENT",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        3623,
+        1312.76
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      },
+      "size": [
+        145.8,
+        82
+      ],
+      "type": "VAEEncode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3570489211938845,
+      "inputs": [
+        {
+          "link": 826743370363815,
+          "name": "clip",
+          "type": "CLIP"
+        }
+      ],
+      "mode": 0,
+      "order": 12,
+      "outputs": [
+        {
+          "links": [
+            1418116318177146
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        408.79999999999995,
+        2481
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "size": [
+        400,
+        236
+      ],
+      "title": "Prompt - Pose 1 (happy)",
+      "type": "CLIPTextEncode",
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, cheerful happy smiling expression, waving one hand, friendly standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      ],
+      "widgets_values_named": {
+        "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, cheerful happy smiling expression, waving one hand, friendly standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2440663582766253,
+      "inputs": [
+        {
+          "link": 1418116318177146,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 17,
+      "outputs": [
+        {
+          "links": [
+            1844093836899345
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        888.8,
+        2552
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "FluxGuidance",
+      "widgets_values": [
+        4
+      ],
+      "widgets_values_named": {
+        "guidance": 4
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3808566513788566,
+      "inputs": [
+        {
+          "link": 1844093836899345,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 3174675790655749,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 30,
+      "outputs": [
+        {
+          "links": [
+            610520434024511
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        2442.6,
+        1930.2
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1375608634415251,
+      "inputs": [
+        {
+          "link": 610520434024511,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 1094367857752260,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 37,
+      "outputs": [
+        {
+          "links": [
+            791316127807410
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        3973,
+        1621.48
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3694343468051242,
+      "inputs": [
+        {
+          "link": 3164283899469790,
+          "name": "model",
+          "type": "MODEL"
+        },
+        {
+          "link": 791316127807410,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 40,
+      "outputs": [
+        {
+          "links": [
+            575921716864092
+          ],
+          "name": "GUIDER",
+          "type": "GUIDER"
+        }
+      ],
+      "pos": [
+        4299.6,
+        1131.74
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "size": [
+        219.720703125,
+        82
+      ],
+      "type": "BasicGuider"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 210869494129373,
+      "inputs": [],
+      "mode": 0,
+      "order": 9,
+      "outputs": [
+        {
+          "links": [
+            4047714279318523
+          ],
+          "name": "NOISE",
+          "type": "NOISE"
+        }
+      ],
+      "pos": [
+        40,
+        436
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "size": [
+        288.79999999999995,
+        118
+      ],
+      "type": "RandomNoise",
+      "widgets_values": [
+        101,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "control_after_generate": "fixed",
+        "noise_seed": 101
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1829372125031897,
+      "inputs": [
+        {
+          "link": 4047714279318523,
+          "name": "noise",
+          "type": "NOISE"
+        },
+        {
+          "link": 575921716864092,
+          "name": "guider",
+          "type": "GUIDER"
+        },
+        {
+          "link": 1294388900301508,
+          "name": "sampler",
+          "type": "SAMPLER"
+        },
+        {
+          "link": 3293882366390143,
+          "name": "sigmas",
+          "type": "SIGMAS"
+        },
+        {
+          "link": 3443313013327633,
+          "name": "latent_image",
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 43,
+      "outputs": [
+        {
+          "links": [
+            826469235692291
+          ],
+          "name": "output",
+          "type": "LATENT"
+        },
+        {
+          "links": [],
+          "name": "denoised_output",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        4575.8,
+        895.548
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "size": [
+        271.8,
+        142
+      ],
+      "type": "SamplerCustomAdvanced"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 221317742756508,
+      "inputs": [
+        {
+          "link": 826469235692291,
+          "name": "samples",
+          "type": "LATENT"
+        },
+        {
+          "link": 3948854948196101,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 46,
+      "outputs": [
+        {
+          "links": [
+            2330817446352384,
+            3946421983695848
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        4927.6,
+        1165.774
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "size": [
+        147.073828125,
+        82
+      ],
+      "type": "VAEDecode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4490301713047906,
+      "inputs": [
+        {
+          "link": 2016365951306199,
+          "name": "bg_removal_model",
+          "type": "BACKGROUND_REMOVAL"
+        },
+        {
+          "link": 2330817446352384,
+          "name": "image",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 49,
+      "outputs": [
+        {
+          "links": [
+            1319056602906721
+          ],
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5153.400000000001,
+        1367.887
+      ],
+      "properties": {
+        "Node name for S&R": "RemoveBackground"
+      },
+      "size": [
+        230.150390625,
+        82
+      ],
+      "type": "RemoveBackground"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3133589768887434,
+      "inputs": [
+        {
+          "link": 1319056602906721,
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 52,
+      "outputs": [
+        {
+          "links": [
+            3330604769019028
+          ],
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5446.400000000001,
+        1377.887
+      ],
+      "properties": {
+        "Node name for S&R": "InvertMask"
+      },
+      "size": [
+        153.181640625,
+        62
+      ],
+      "type": "InvertMask"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2178467879362857,
+      "inputs": [
+        {
+          "link": 3946421983695848,
+          "name": "image",
+          "type": "IMAGE"
+        },
+        {
+          "link": 3330604769019028,
+          "name": "alpha",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 55,
+      "outputs": [
+        {
+          "links": [
+            4386817705517332
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5666.400000000001,
+        1266.8305
+      ],
+      "properties": {
+        "Node name for S&R": "JoinImageWithAlpha"
+      },
+      "size": [
+        216.3,
+        82
+      ],
+      "type": "JoinImageWithAlpha"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4355613519927032,
+      "inputs": [
+        {
+          "link": 4386817705517332,
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 58,
+      "outputs": [
+        {
+          "links": [],
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5962.700000000001,
+        1260.8305
+      ],
+      "properties": {},
+      "size": [
+        270,
+        94
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "sprite_pose1"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "sprite_pose1"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1430490508900575,
+      "inputs": [
+        {
+          "link": 1987397267891252,
+          "name": "clip",
+          "type": "CLIP"
+        }
+      ],
+      "mode": 0,
+      "order": 14,
+      "outputs": [
+        {
+          "links": [
+            1334439238182250
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        408.79999999999995,
+        2787
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "size": [
+        400,
+        236
+      ],
+      "title": "Prompt - Pose 2 (surprised)",
+      "type": "CLIPTextEncode",
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, surprised shocked expression, eyes wide open, both hands raised near chest, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      ],
+      "widgets_values_named": {
+        "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, surprised shocked expression, eyes wide open, both hands raised near chest, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1897560592918960,
+      "inputs": [
+        {
+          "link": 1334439238182250,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 19,
+      "outputs": [
+        {
+          "links": [
+            839427207395300
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        888.8,
+        2858
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "FluxGuidance",
+      "widgets_values": [
+        4
+      ],
+      "widgets_values_named": {
+        "guidance": 4
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 793068364793590,
+      "inputs": [
+        {
+          "link": 839427207395300,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 2746450132750496,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 29,
+      "outputs": [
+        {
+          "links": [
+            144517337717009
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        2442.6,
+        2083.2
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1187139905519672,
+      "inputs": [
+        {
+          "link": 144517337717009,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 128995384929881,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 36,
+      "outputs": [
+        {
+          "links": [
+            2703922730628356
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        3973,
+        1773.48
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 589124576158887,
+      "inputs": [
+        {
+          "link": 1798761795798633,
+          "name": "model",
+          "type": "MODEL"
+        },
+        {
+          "link": 2703922730628356,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 39,
+      "outputs": [
+        {
+          "links": [
+            3053723898300268
+          ],
+          "name": "GUIDER",
+          "type": "GUIDER"
+        }
+      ],
+      "pos": [
+        4299.6,
+        1283.74
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "size": [
+        219.720703125,
+        82
+      ],
+      "type": "BasicGuider"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3412725126373294,
+      "inputs": [],
+      "mode": 0,
+      "order": 10,
+      "outputs": [
+        {
+          "links": [
+            3359194561455452
+          ],
+          "name": "NOISE",
+          "type": "NOISE"
+        }
+      ],
+      "pos": [
+        40,
+        1728
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "size": [
+        288.79999999999995,
+        118
+      ],
+      "type": "RandomNoise",
+      "widgets_values": [
+        102,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "control_after_generate": "fixed",
+        "noise_seed": 102
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4401553452149677,
+      "inputs": [
+        {
+          "link": 3359194561455452,
+          "name": "noise",
+          "type": "NOISE"
+        },
+        {
+          "link": 3053723898300268,
+          "name": "guider",
+          "type": "GUIDER"
+        },
+        {
+          "link": 2201045477850104,
+          "name": "sampler",
+          "type": "SAMPLER"
+        },
+        {
+          "link": 3445605281164880,
+          "name": "sigmas",
+          "type": "SIGMAS"
+        },
+        {
+          "link": 880846800617187,
+          "name": "latent_image",
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 42,
+      "outputs": [
+        {
+          "links": [
+            2967940937860599
+          ],
+          "name": "output",
+          "type": "LATENT"
+        },
+        {
+          "links": [],
+          "name": "denoised_output",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        4575.8,
+        1184.348
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "size": [
+        271.8,
+        142
+      ],
+      "type": "SamplerCustomAdvanced"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 58281155708456,
+      "inputs": [
+        {
+          "link": 2967940937860599,
+          "name": "samples",
+          "type": "LATENT"
+        },
+        {
+          "link": 45176933924423,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 45,
+      "outputs": [
+        {
+          "links": [
+            1040063351925086,
+            1485808710082559
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        4927.6,
+        1317.774
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "size": [
+        147.073828125,
+        82
+      ],
+      "type": "VAEDecode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 2728208234168526,
+      "inputs": [
+        {
+          "link": 2592105497094328,
+          "name": "bg_removal_model",
+          "type": "BACKGROUND_REMOVAL"
+        },
+        {
+          "link": 1485808710082559,
+          "name": "image",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 48,
+      "outputs": [
+        {
+          "links": [
+            507565973286489
+          ],
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5153.400000000001,
+        1519.887
+      ],
+      "properties": {
+        "Node name for S&R": "RemoveBackground"
+      },
+      "size": [
+        230.150390625,
+        82
+      ],
+      "type": "RemoveBackground"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 16830001323836,
+      "inputs": [
+        {
+          "link": 507565973286489,
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 51,
+      "outputs": [
+        {
+          "links": [
+            1448605752568256
+          ],
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5446.400000000001,
+        1529.887
+      ],
+      "properties": {
+        "Node name for S&R": "InvertMask"
+      },
+      "size": [
+        153.181640625,
+        62
+      ],
+      "type": "InvertMask"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 721075887333639,
+      "inputs": [
+        {
+          "link": 1040063351925086,
+          "name": "image",
+          "type": "IMAGE"
+        },
+        {
+          "link": 1448605752568256,
+          "name": "alpha",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 54,
+      "outputs": [
+        {
+          "links": [
+            4203730846453465
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5666.400000000001,
+        1418.8305
+      ],
+      "properties": {
+        "Node name for S&R": "JoinImageWithAlpha"
+      },
+      "size": [
+        216.3,
+        82
+      ],
+      "type": "JoinImageWithAlpha"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3480810410188413,
+      "inputs": [
+        {
+          "link": 4203730846453465,
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 57,
+      "outputs": [
+        {
+          "links": [],
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5962.700000000001,
+        1424.8305
+      ],
+      "properties": {},
+      "size": [
+        270,
+        94
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "sprite_pose2"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "sprite_pose2"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3562126295404813,
+      "inputs": [
+        {
+          "link": 3993219071715005,
+          "name": "clip",
+          "type": "CLIP"
+        }
+      ],
+      "mode": 0,
+      "order": 16,
+      "outputs": [
+        {
+          "links": [
+            3642733689526642
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        408.79999999999995,
+        3093
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "size": [
+        400,
+        236
+      ],
+      "title": "Prompt - Pose 3 (sad)",
+      "type": "CLIPTextEncode",
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, sad teary crying expression, looking down slightly, hands clasped together in front, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      ],
+      "widgets_values_named": {
+        "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform, anime style, full body, sad teary crying expression, looking down slightly, hands clasped together in front, standing pose, visual novel sprite, flat anime cel shading, clean crisp lineart, plain solid light grey background, soft even studio lighting"
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1797842311622212,
+      "inputs": [
+        {
+          "link": 3642733689526642,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 21,
+      "outputs": [
+        {
+          "links": [
+            1141065589204069
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        888.8,
+        3164
+      ],
+      "properties": {
+        "Node name for S&R": "FluxGuidance"
+      },
+      "size": [
+        270,
+        94
+      ],
+      "type": "FluxGuidance",
+      "widgets_values": [
+        4
+      ],
+      "widgets_values_named": {
+        "guidance": 4
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4174931571544185,
+      "inputs": [
+        {
+          "link": 1141065589204069,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 1951997311849180,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 28,
+      "outputs": [
+        {
+          "links": [
+            1393254984947434
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        2442.6,
+        2236.2
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4006286758890440,
+      "inputs": [
+        {
+          "link": 1393254984947434,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        },
+        {
+          "link": 1497162612879857,
+          "name": "latent",
+          "shape": 7,
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 38,
+      "outputs": [
+        {
+          "links": [
+            4481561717557891
+          ],
+          "name": "CONDITIONING",
+          "type": "CONDITIONING"
+        }
+      ],
+      "pos": [
+        3973,
+        1925.48
+      ],
+      "properties": {
+        "Node name for S&R": "ReferenceLatent"
+      },
+      "size": [
+        246.6,
+        82
+      ],
+      "type": "ReferenceLatent"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3677941290379756,
+      "inputs": [
+        {
+          "link": 2554879859961627,
+          "name": "model",
+          "type": "MODEL"
+        },
+        {
+          "link": 4481561717557891,
+          "name": "conditioning",
+          "type": "CONDITIONING"
+        }
+      ],
+      "mode": 0,
+      "order": 41,
+      "outputs": [
+        {
+          "links": [
+            1290589976128309
+          ],
+          "name": "GUIDER",
+          "type": "GUIDER"
+        }
+      ],
+      "pos": [
+        4299.6,
+        1435.74
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "size": [
+        219.720703125,
+        82
+      ],
+      "type": "BasicGuider"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 852949517389928,
+      "inputs": [],
+      "mode": 0,
+      "order": 11,
+      "outputs": [
+        {
+          "links": [
+            1219438317841460
+          ],
+          "name": "NOISE",
+          "type": "NOISE"
+        }
+      ],
+      "pos": [
+        40,
+        2128
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "size": [
+        288.79999999999995,
+        118
+      ],
+      "type": "RandomNoise",
+      "widgets_values": [
+        103,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "control_after_generate": "fixed",
+        "noise_seed": 103
+      }
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 492235944544572,
+      "inputs": [
+        {
+          "link": 1219438317841460,
+          "name": "noise",
+          "type": "NOISE"
+        },
+        {
+          "link": 1290589976128309,
+          "name": "guider",
+          "type": "GUIDER"
+        },
+        {
+          "link": 2370380711224449,
+          "name": "sampler",
+          "type": "SAMPLER"
+        },
+        {
+          "link": 126963573389704,
+          "name": "sigmas",
+          "type": "SIGMAS"
+        },
+        {
+          "link": 2264864238251321,
+          "name": "latent_image",
+          "type": "LATENT"
+        }
+      ],
+      "mode": 0,
+      "order": 44,
+      "outputs": [
+        {
+          "links": [
+            369247809706336
+          ],
+          "name": "output",
+          "type": "LATENT"
+        },
+        {
+          "links": [],
+          "name": "denoised_output",
+          "type": "LATENT"
+        }
+      ],
+      "pos": [
+        4575.8,
+        1396.348
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "size": [
+        271.8,
+        142
+      ],
+      "type": "SamplerCustomAdvanced"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 4293789365817089,
+      "inputs": [
+        {
+          "link": 369247809706336,
+          "name": "samples",
+          "type": "LATENT"
+        },
+        {
+          "link": 403885640243820,
+          "name": "vae",
+          "type": "VAE"
+        }
+      ],
+      "mode": 0,
+      "order": 47,
+      "outputs": [
+        {
+          "links": [
+            1303577970631405,
+            3487187969669001
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        4927.6,
+        1469.774
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "size": [
+        147.073828125,
+        82
+      ],
+      "type": "VAEDecode"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 443676707205338,
+      "inputs": [
+        {
+          "link": 2119502701363561,
+          "name": "bg_removal_model",
+          "type": "BACKGROUND_REMOVAL"
+        },
+        {
+          "link": 1303577970631405,
+          "name": "image",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 50,
+      "outputs": [
+        {
+          "links": [
+            1129412379676016
+          ],
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5153.400000000001,
+        1671.887
+      ],
+      "properties": {
+        "Node name for S&R": "RemoveBackground"
+      },
+      "size": [
+        230.150390625,
+        82
+      ],
+      "type": "RemoveBackground"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3027930362007574,
+      "inputs": [
+        {
+          "link": 1129412379676016,
+          "name": "mask",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 53,
+      "outputs": [
+        {
+          "links": [
+            2455867273051741
+          ],
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "pos": [
+        5446.400000000001,
+        1681.887
+      ],
+      "properties": {
+        "Node name for S&R": "InvertMask"
+      },
+      "size": [
+        153.181640625,
+        62
+      ],
+      "type": "InvertMask"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 3467115184249206,
+      "inputs": [
+        {
+          "link": 3487187969669001,
+          "name": "image",
+          "type": "IMAGE"
+        },
+        {
+          "link": 2455867273051741,
+          "name": "alpha",
+          "type": "MASK"
+        }
+      ],
+      "mode": 0,
+      "order": 56,
+      "outputs": [
+        {
+          "links": [
+            2765552502724728
+          ],
+          "name": "IMAGE",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5666.400000000001,
+        1570.8305
+      ],
+      "properties": {
+        "Node name for S&R": "JoinImageWithAlpha"
+      },
+      "size": [
+        216.3,
+        82
+      ],
+      "type": "JoinImageWithAlpha"
+    },
+    {
+      "__incarnation": "0",
+      "extensions": {
+        "__incarnation": "0"
+      },
+      "flags": {},
+      "id": 1622342273288652,
+      "inputs": [
+        {
+          "link": 2765552502724728,
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "mode": 0,
+      "order": 59,
+      "outputs": [
+        {
+          "links": [],
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "pos": [
+        5962.700000000001,
+        1588.8305
+      ],
+      "properties": {},
+      "size": [
+        270,
+        94
+      ],
+      "type": "SaveImage",
+      "widgets_values": [
+        "sprite_pose3"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "sprite_pose3"
+      }
+    }
+  ],
+  "revision": 0,
+  "version": 0.4
+}
