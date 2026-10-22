@@ -1,0 +1,9 @@
+Zoom do rabo de cavalo — pose alegre, segunda geração
+
+Fonte: refatorado-run/sprite_00001_.png, extraído do ZIP comfy-export-2026-10-21-bfde2fa9.zip.
+Região: x=425..589, y=220..569 na imagem de 768 x 1152.
+Ampliação: 3x por vizinho mais próximo.
+Alpha: canal A original em tons de cinza; sem limiarização, suavização ou correção.
+RGB: canais RGB do mesmo PNG, com o alpha desconsiderado para inspecionar os fios sob a transparência.
+
+Legenda: Alpha da pose alegre após a troca para fundo preto: parte das mechas finas do rabo de cavalo ficou transparente.
