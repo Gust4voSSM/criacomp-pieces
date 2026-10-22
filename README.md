@@ -8,7 +8,7 @@ Cada experimento reúne o que foi tentado, as ferramentas e os prompts utilizado
 
 | Experimento | Conteúdo | Download |
 | --- | --- | --- |
-| [Sprites de visual novel com o agente do ComfyUI Cloud](experiments/vn-sprites-agentico/) | Workflow inicial, refatoração e execução com Kobold; 15 imagens, prompts e workflows | [ZIP direto](https://raw.githubusercontent.com/Gust4voSSM/criacomp-pieces/main/experiments/vn-sprites-agentico/vn-sprites-agentico.zip) |
+| [Sprites de visual novel com o agente do ComfyUI Cloud](experiments/vn-sprites-agentico/) | Workflow inicial, refatoração e execução com Kobold; 15 imagens, prompts e workflows | [ZIPs por geração](experiments/vn-sprites-agentico/#downloads-por-geração) |
 
 ## Organização
 
@@ -20,12 +20,10 @@ experiments/
     comparacao.md
     prompts-completos.md
     evidencias/
-      primeira-run/     # imagens, prompts.md e workflows
-      refatorado-run/   # imagens, prompts.md e workflows
-      kobold-run/       # imagens, prompts.md e workflows
+      primeira-run/     # imagens, prompts.md, workflows e ZIP
+      refatorado-run/   # imagens, prompts.md, workflows e ZIP
+      kobold-run/       # imagens, prompts.md, workflows e ZIP
       alpha-original/  # visualizações do canal alpha
-    SHA256SUMS.txt
-    vn-sprites-agentico.zip
 scripts/
   package_experiments.py
 ```
@@ -36,4 +34,4 @@ O [repositório oficial da disciplina](https://github.com/filipecalegario/criaco
 
 ## Downloads
 
-Os links de ZIP em cada experimento baixam os arquivos diretamente pelo GitHub Raw. O Raw não compacta pastas; os ZIPs são preparados e versionados no repositório. Para regenerá-los, use `python scripts/package_experiments.py` (somente biblioteca padrão do Python).
+Cada geração tem um arquivo `prompts.md` e um ZIP que compacta sua própria pasta. Os links de ZIP baixam os arquivos diretamente pelo GitHub Raw. O Raw não compacta pastas; os ZIPs são preparados e versionados no repositório. Para regenerá-los, use `python scripts/package_experiments.py` (somente biblioteca padrão do Python).
