@@ -1,0 +1,15 @@
+{
+  "result": "The generated character smiles and waves, rather than copying the neutral front pose.",
+  "seed": 12345,
+  "reference_source": "Exact saved front/side RGBA PNGs, SHA256 verified by loader",
+  "prompt_and_sampling": "Original failed pose graph, same text, size, Euler/simple, 40 steps, CFG 1, denoise 1",
+  "images_generated": 1,
+  "seconds_including_comfy_startup": 79.335100269,
+  "alpha_range": [
+    0,
+    255
+  ],
+  "app_url": "https://modal.com/apps/gssm/main/ap-zwWUfXWh1MMdI1TS1Nvjct",
+  "production_api_modified": false,
+  "interpretation": "Changing the pose seed resolves the observed symptom in this test and supports the noise-replay diagnosis. The test reloads saved 8-bit PNGs rather than live decoded tensors, so this is not strict bit-identical reference-conditioning replay."
+}

@@ -1,0 +1,817 @@
+{
+  "id": "98046874-315d-480b-b71a-4414391408c4",
+  "revision": 1,
+  "last_node_id": 25,
+  "last_link_id": 51,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "title": "Qwen Image 2.1 base",
+      "pos": [
+        0,
+        0
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            45
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "qwen_image_2.1_bf16.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "title": "Qwen3-VL 8B",
+      "pos": [
+        0,
+        160
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            40
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "qwen3vl_8b_bf16.safetensors",
+        "qwen_image",
+        "default"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "title": "Qwen 2.1 native RGBA VAE",
+      "pos": [
+        0,
+        320
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            15,
+            32,
+            42,
+            50
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "qwen_image_2.1_vae_bf16.safetensors"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "VNQwenText",
+      "title": "Shared prefix",
+      "pos": [
+        0,
+        680
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            34
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "This is an RGBA image with transparency."
+      ]
+    },
+    {
+      "id": 6,
+      "type": "VNQwenText",
+      "title": "Shared character",
+      "pos": [
+        0,
+        880
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            35
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "VNQwenText",
+      "title": "Shared framing",
+      "pos": [
+        0,
+        1080
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "Full body, entire character visible with margin around head, hands and feet."
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VNQwenText",
+      "title": "Shared style",
+      "pos": [
+        0,
+        1280
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting."
+      ]
+    },
+    {
+      "id": 9,
+      "type": "VNQwenText",
+      "title": "Shared constraints",
+      "pos": [
+        0,
+        1480
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "No scenery, no floor shadow, no text, no border."
+      ]
+    },
+    {
+      "id": 10,
+      "type": "VNQwenText",
+      "title": "Shared suffix",
+      "pos": [
+        0,
+        1680
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            39
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenText"
+      },
+      "widgets_values": [
+        "The image has alpha channel and the background is transparent."
+      ]
+    },
+    {
+      "id": 14,
+      "type": "VNLoadCachedRGBA",
+      "title": "Saved RGBA reference",
+      "pos": [
+        1700,
+        0
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            43
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNLoadCachedRGBA"
+      },
+      "widgets_values": [
+        "input/vn-qwen-seed-12345/charsheet_front_rgba_00001_.png",
+        "d7493d6540e2e5fcb773c45981e7af833a15789bede5eb6a978ce5aa067ff795"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "VNLoadCachedRGBA",
+      "title": "Saved RGBA reference",
+      "pos": [
+        1700,
+        600
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            44
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNLoadCachedRGBA"
+      },
+      "widgets_values": [
+        "input/vn-qwen-seed-12345/charsheet_side_rgba_00001_.png",
+        "c0bd2daacecd44c1071add64389fc8a6822ed176715417537660e7754ae7fb6b"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "VNQwenPrompt",
+      "title": "Action - happy",
+      "pos": [
+        500,
+        1200
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "prefix",
+          "type": "STRING",
+          "link": 34
+        },
+        {
+          "name": "character",
+          "type": "STRING",
+          "link": 35
+        },
+        {
+          "name": "framing",
+          "type": "STRING",
+          "link": 36
+        },
+        {
+          "name": "style",
+          "type": "STRING",
+          "link": 37
+        },
+        {
+          "name": "constraints",
+          "type": "STRING",
+          "link": 38
+        },
+        {
+          "name": "suffix",
+          "type": "STRING",
+          "link": 39
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            41
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VNQwenPrompt"
+      },
+      "widgets_values": [
+        "cheerful happy smiling expression, waving one hand, friendly standing pose"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "TextEncodeQwenImage21",
+      "title": "RGBA references - happy",
+      "pos": [
+        900,
+        1200
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 40
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": 41,
+          "widget": {
+            "name": "prompt"
+          }
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 42
+        },
+        {
+          "name": "images.image_1",
+          "type": "IMAGE",
+          "link": 43
+        },
+        {
+          "name": "images.image_2",
+          "type": "IMAGE",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            46
+          ]
+        },
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            47
+          ]
+        },
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            48
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TextEncodeQwenImage21"
+      },
+      "widgets_values": [
+        "",
+        "",
+        0
+      ]
+    },
+    {
+      "id": 23,
+      "type": "KSampler",
+      "title": "Generate - happy",
+      "pos": [
+        1300,
+        1200
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 45
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 46
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 47
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 48
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            49
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        12345,
+        "fixed",
+        40,
+        1.0,
+        "euler",
+        "simple",
+        1.0
+      ]
+    },
+    {
+      "id": 24,
+      "type": "VAEDecode",
+      "title": "Native RGBA - happy",
+      "pos": [
+        1700,
+        1200
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 49
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 50
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            51
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 25,
+      "type": "SaveImage",
+      "title": "Save RGBA - happy",
+      "pos": [
+        2100,
+        1200
+      ],
+      "size": [
+        330,
+        100
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 51
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "vn_qwen/sprite_happy_rgba"
+      ]
+    }
+  ],
+  "links": [
+    [
+      15,
+      3,
+      0,
+      14,
+      1,
+      "VAE"
+    ],
+    [
+      32,
+      3,
+      0,
+      19,
+      1,
+      "VAE"
+    ],
+    [
+      34,
+      5,
+      0,
+      21,
+      0,
+      "STRING"
+    ],
+    [
+      35,
+      6,
+      0,
+      21,
+      1,
+      "STRING"
+    ],
+    [
+      36,
+      7,
+      0,
+      21,
+      2,
+      "STRING"
+    ],
+    [
+      37,
+      8,
+      0,
+      21,
+      3,
+      "STRING"
+    ],
+    [
+      38,
+      9,
+      0,
+      21,
+      4,
+      "STRING"
+    ],
+    [
+      39,
+      10,
+      0,
+      21,
+      5,
+      "STRING"
+    ],
+    [
+      40,
+      2,
+      0,
+      22,
+      0,
+      "CLIP"
+    ],
+    [
+      41,
+      21,
+      0,
+      22,
+      1,
+      "STRING"
+    ],
+    [
+      42,
+      3,
+      0,
+      22,
+      2,
+      "VAE"
+    ],
+    [
+      43,
+      14,
+      0,
+      22,
+      3,
+      "IMAGE"
+    ],
+    [
+      44,
+      19,
+      0,
+      22,
+      4,
+      "IMAGE"
+    ],
+    [
+      45,
+      1,
+      0,
+      23,
+      0,
+      "MODEL"
+    ],
+    [
+      46,
+      22,
+      0,
+      23,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      47,
+      22,
+      1,
+      23,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      48,
+      22,
+      2,
+      23,
+      3,
+      "LATENT"
+    ],
+    [
+      49,
+      23,
+      0,
+      24,
+      0,
+      "LATENT"
+    ],
+    [
+      50,
+      3,
+      0,
+      24,
+      1,
+      "VAE"
+    ],
+    [
+      51,
+      24,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.4,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "vn_qwen": {
+      "model": "Qwen-Image-2.1",
+      "native_rgba": true,
+      "note": "Reconstructed UI; input paths adapted for portability. Original executed graph: workflow-original.api.json."
+    }
+  },
+  "version": 0.4
+}

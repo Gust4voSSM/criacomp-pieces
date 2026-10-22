@@ -1,0 +1,19 @@
+{
+  "seconds": 79.335100269,
+  "images": [
+    {
+      "file": "vn_qwen/sprite_happy_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7805187084056713
+    }
+  ],
+  "comfy_commit": "faa7e494f3a0c9e45e1c3db8d20ee48fd5fe1b52",
+  "model": "Qwen-Image-2.1",
+  "native_rgba": true
+}

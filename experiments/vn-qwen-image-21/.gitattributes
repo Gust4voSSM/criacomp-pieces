@@ -1,0 +1,2 @@
+# Preserve original execution logs byte for byte, including progress control codes.
+*.log binary

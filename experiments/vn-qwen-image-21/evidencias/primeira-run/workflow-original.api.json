@@ -1,0 +1,451 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_bf16.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "Qwen Image 2.1 base"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_bf16.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "Qwen3-VL 8B"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    },
+    "_meta": {
+      "title": "Qwen 2.1 native RGBA VAE"
+    }
+  },
+  "4": {
+    "class_type": "VNQwenEmptyLatent",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "Shared Qwen canvas (64 channels)"
+    }
+  },
+  "5": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "This is an RGBA image with transparency."
+    },
+    "_meta": {
+      "title": "Shared prefix"
+    }
+  },
+  "6": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "a young woman with long silver hair in a side ponytail, violet eyes, wearing a navy-blue sailor school uniform"
+    },
+    "_meta": {
+      "title": "Shared character"
+    }
+  },
+  "7": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "Full body, entire character visible with margin around head, hands and feet."
+    },
+    "_meta": {
+      "title": "Shared framing"
+    }
+  },
+  "8": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting."
+    },
+    "_meta": {
+      "title": "Shared style"
+    }
+  },
+  "9": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "No scenery, no floor shadow, no text, no border."
+    },
+    "_meta": {
+      "title": "Shared constraints"
+    }
+  },
+  "10": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "The image has alpha channel and the background is transparent."
+    },
+    "_meta": {
+      "title": "Shared suffix"
+    }
+  },
+  "11": {
+    "class_type": "VNQwenPrompt",
+    "inputs": {
+      "prefix": [
+        "5",
+        0
+      ],
+      "character": [
+        "6",
+        0
+      ],
+      "framing": [
+        "7",
+        0
+      ],
+      "style": [
+        "8",
+        0
+      ],
+      "constraints": [
+        "9",
+        0
+      ],
+      "suffix": [
+        "10",
+        0
+      ],
+      "action": "standing straight facing the camera, front view, arms slightly away from body, neutral calm expression, highly detailed"
+    },
+    "_meta": {
+      "title": "Action - front"
+    }
+  },
+  "12": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "prompt": [
+        "11",
+        0
+      ],
+      "negative_prompt": "",
+      "vae": [
+        "3",
+        0
+      ],
+      "resolution": 0
+    },
+    "_meta": {
+      "title": "RGBA references - front"
+    }
+  },
+  "13": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 1,
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "12",
+        0
+      ],
+      "negative": [
+        "12",
+        1
+      ],
+      "latent_image": [
+        "4",
+        0
+      ],
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "Generate - front"
+    }
+  },
+  "14": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "13",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Native RGBA - front"
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "vn_qwen/charsheet_front_rgba"
+    },
+    "_meta": {
+      "title": "Save RGBA - front"
+    }
+  },
+  "16": {
+    "class_type": "VNQwenPrompt",
+    "inputs": {
+      "prefix": [
+        "5",
+        0
+      ],
+      "character": [
+        "6",
+        0
+      ],
+      "framing": [
+        "7",
+        0
+      ],
+      "style": [
+        "8",
+        0
+      ],
+      "constraints": [
+        "9",
+        0
+      ],
+      "suffix": [
+        "10",
+        0
+      ],
+      "action": "standing straight, left side profile view, neutral calm expression, consistent character design"
+    },
+    "_meta": {
+      "title": "Action - side"
+    }
+  },
+  "17": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "prompt": [
+        "16",
+        0
+      ],
+      "negative_prompt": "",
+      "vae": [
+        "3",
+        0
+      ],
+      "resolution": 0,
+      "images.image_1": [
+        "14",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "RGBA references - side"
+    }
+  },
+  "18": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 2,
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "17",
+        0
+      ],
+      "negative": [
+        "17",
+        1
+      ],
+      "latent_image": [
+        "17",
+        2
+      ],
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "Generate - side"
+    }
+  },
+  "19": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "18",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Native RGBA - side"
+    }
+  },
+  "20": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "filename_prefix": "vn_qwen/charsheet_side_rgba"
+    },
+    "_meta": {
+      "title": "Save RGBA - side"
+    }
+  },
+  "21": {
+    "class_type": "VNQwenPrompt",
+    "inputs": {
+      "prefix": [
+        "5",
+        0
+      ],
+      "character": [
+        "6",
+        0
+      ],
+      "framing": [
+        "7",
+        0
+      ],
+      "style": [
+        "8",
+        0
+      ],
+      "constraints": [
+        "9",
+        0
+      ],
+      "suffix": [
+        "10",
+        0
+      ],
+      "action": "cheerful happy smiling expression, waving one hand, friendly standing pose"
+    },
+    "_meta": {
+      "title": "Action - happy"
+    }
+  },
+  "22": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "prompt": [
+        "21",
+        0
+      ],
+      "negative_prompt": "",
+      "vae": [
+        "3",
+        0
+      ],
+      "resolution": 0,
+      "images.image_1": [
+        "14",
+        0
+      ],
+      "images.image_2": [
+        "19",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "RGBA references - happy"
+    }
+  },
+  "23": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 1,
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "22",
+        0
+      ],
+      "negative": [
+        "22",
+        1
+      ],
+      "latent_image": [
+        "22",
+        2
+      ],
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "Generate - happy"
+    }
+  },
+  "24": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "23",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Native RGBA - happy"
+    }
+  },
+  "25": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "24",
+        0
+      ],
+      "filename_prefix": "vn_qwen/sprite_happy_rgba"
+    },
+    "_meta": {
+      "title": "Save RGBA - happy"
+    }
+  }
+}

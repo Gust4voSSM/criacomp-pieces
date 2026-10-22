@@ -1,0 +1,35 @@
+{
+  "execution_date": "2026-10-21",
+  "source_directory": "flux-klein-modal/outputs/vn-qwen-smoke-20261021-192454",
+  "comfy_commit": "faa7e494f3a0c9e45e1c3db8d20ee48fd5fe1b52",
+  "files": [
+    {
+      "name": "charsheet_front_rgba_00001_.png",
+      "sha256": "d7493d6540e2e5fcb773c45981e7af833a15789bede5eb6a978ce5aa067ff795",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ],
+      "role": "generated"
+    },
+    {
+      "name": "charsheet_side_rgba_00001_.png",
+      "sha256": "c0bd2daacecd44c1071add64389fc8a6822ed176715417537660e7754ae7fb6b",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ],
+      "role": "generated"
+    },
+    {
+      "name": "sprite_happy_rgba_00001_.png",
+      "sha256": "698248d7662e26754661fe34eeca8957647008f2ce004efc33468d65f963b96b",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ],
+      "role": "generated"
+    }
+  ],
+  "workflow_note": "workflow-original.api.json preserves the executed graph. workflow.json is reconstructed for the editor; workflow.api.json adapts only cached reference paths when needed."
+}

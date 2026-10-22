@@ -1,0 +1,29 @@
+{
+  "execution_date": "2026-10-21",
+  "source_directory": "Projeto Ferramenta/qwen-modal-update/seed-tests/20261021-195024",
+  "comfy_commit": "faa7e494f3a0c9e45e1c3db8d20ee48fd5fe1b52",
+  "files": [
+    {
+      "name": "sprite_happy_rgba_00001_.png",
+      "sha256": "a9a64ed917502482ee6001675b70fb9b19b341cc75026cda9a4155c497bc6972",
+      "metadata": [
+        "prompt",
+        "workflow"
+      ],
+      "role": "generated"
+    },
+    {
+      "name": "referencias/charsheet_front_rgba_00001_.png",
+      "sha256": "d7493d6540e2e5fcb773c45981e7af833a15789bede5eb6a978ce5aa067ff795",
+      "role": "reused_reference",
+      "from": "../primeira-run/charsheet_front_rgba_00001_.png"
+    },
+    {
+      "name": "referencias/charsheet_side_rgba_00001_.png",
+      "sha256": "c0bd2daacecd44c1071add64389fc8a6822ed176715417537660e7754ae7fb6b",
+      "role": "reused_reference",
+      "from": "../primeira-run/charsheet_side_rgba_00001_.png"
+    }
+  ],
+  "workflow_note": "workflow-original.api.json preserves the executed graph. workflow.json is reconstructed for the editor; workflow.api.json adapts only cached reference paths when needed."
+}
