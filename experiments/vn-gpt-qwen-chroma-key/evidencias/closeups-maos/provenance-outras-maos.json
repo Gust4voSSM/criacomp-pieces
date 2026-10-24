@@ -1,0 +1,14 @@
+{
+  "source": "output/imagegen/qwen-vn-pose-study/two-pose-run/results/vn_qwen/sprite_speaking_rgba_00001_.png",
+  "source_sha256": "0a559a9d1f4c91215311e92dbb4d34b9d0e79686531232041b787eb9e61f6255",
+  "crop_xyxy": [
+    95,
+    330,
+    480,
+    520
+  ],
+  "preview_scale": 3,
+  "preview_resampling": "nearest",
+  "preview_background": "white",
+  "note": "Mesmas mãos destacadas na captura enviada pelo autor no chat Research Qwen and VN sprite prompts. Sem retoque."
+}

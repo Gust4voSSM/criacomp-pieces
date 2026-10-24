@@ -26,3 +26,7 @@ Cada ZIP contém sua pasta como raiz, com prompts e SHA256SUMS.txt. PNGs copiado
 O alpha por chroma key é derivado do RGB; as pontuações OpenCV medem coincidência de bordas e podem deixar passar franjas ou cortes indevidos. Consulte os READMEs de cada lote para métodos e limites. As gerações GPT usaram a ferramenta integrada, sem versão exata ou seed selecionável.
 
 Os scripts de análise preservam caminhos do workspace original; ajuste esses caminhos para reproduzir em outro checkout. Os workflows Qwen executados estão nos arquivos request-workflow.json e history.json.
+
+## Close-ups das mãos
+
+[Recortes e comparação CFG 1 / CFG 2](evidencias/closeups-maos/) · [Download dos close-ups (ZIP)](https://raw.githubusercontent.com/Gust4voSSM/criacomp-pieces/main/experiments/vn-gpt-qwen-chroma-key/evidencias/closeups-maos/closeups-maos.zip)

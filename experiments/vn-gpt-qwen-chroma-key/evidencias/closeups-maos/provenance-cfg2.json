@@ -1,0 +1,28 @@
+[
+  {
+    "source": "output/imagegen/qwen-vn-pose-study/speaking-cfg2-run/control/results/vn_qwen/sprite_speaking_rgba_00001_.png",
+    "source_sha256": "395a0e31806322d8d1a4d5ac506f794e3bdd336a2e3b9632e3b33076c2e73653",
+    "crop_xyxy": [
+      370,
+      390,
+      525,
+      560
+    ],
+    "preview_scale": 4,
+    "resampling": "nearest",
+    "background": "white"
+  },
+  {
+    "source": "output/imagegen/qwen-vn-pose-study/speaking-cfg2-run/negative/results/vn_qwen/sprite_speaking_rgba_00001_.png",
+    "source_sha256": "9ffea748031c42656a2cba8cc0498db56ee5ceb01662f4ef29f495370f153515",
+    "crop_xyxy": [
+      390,
+      375,
+      545,
+      545
+    ],
+    "preview_scale": 4,
+    "resampling": "nearest",
+    "background": "white"
+  }
+]

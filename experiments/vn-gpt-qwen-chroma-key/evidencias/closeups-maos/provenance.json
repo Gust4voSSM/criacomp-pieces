@@ -1,0 +1,18 @@
+{
+  "source": "output/imagegen/qwen-vn-pose-study/speaking-simple-run/results/vn_qwen/sprite_speaking_rgba_00001_.png",
+  "source_sha256": "6c59de9ff6e8ee9b2b66155dfc8041f8c2701c0b65821c3c478593328b35a2cc",
+  "crop_xyxy": [
+    445,
+    385,
+    600,
+    555
+  ],
+  "native_crop_size": [
+    155,
+    170
+  ],
+  "preview_scale": 4,
+  "preview_resampling": "nearest",
+  "preview_background": "white",
+  "note": "Recorte da pose falando simplificada, CFG 1; composição usando o alpha original, sem retoque."
+}
