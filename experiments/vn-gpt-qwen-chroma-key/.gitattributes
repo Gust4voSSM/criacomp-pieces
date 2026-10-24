@@ -1,0 +1,5 @@
+# Preserve original evidence bytes and checksum manifests.
+* -text
+*.png binary
+*.zip binary
+*.log binary

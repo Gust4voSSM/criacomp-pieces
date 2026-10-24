@@ -1,0 +1,112 @@
+{
+  "corner_patch_medians_rgb": [
+    [
+      251.0,
+      4.0,
+      248.0
+    ],
+    [
+      251.0,
+      4.0,
+      248.0
+    ],
+    [
+      250.0,
+      4.0,
+      248.0
+    ],
+    [
+      251.0,
+      3.0,
+      248.0
+    ]
+  ],
+  "sampled_background_rgb": [
+    251.0,
+    4.0,
+    248.0
+  ],
+  "max_corner_deviation_rgb": 1.0,
+  "alpha_method": "1-clip((min(R-G,B-G)-8)/(screen_excess-16),0,1)",
+  "unmix": "F=(C-(1-alpha)*B)/alpha; clip RGB; zero RGB at A=0",
+  "results": {
+    "Green distance": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.3777824640274048,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.9403442986194,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.3919147849082947,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.92329981251066,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.4057621359825134,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.87216635418442,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.00034968478414457827,
+      "native_background_nonzero_pct": 0.001570013316567494
+    },
+    "Magenta distance": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.40661317110061646,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.93884727105947,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.40893805027008057,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.9312031799419,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.4153459966182709,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.91591499770676,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.01664537618490485,
+      "native_background_nonzero_pct": 0.1816157684869034
+    },
+    "Magenta unmix": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.23462539911270142,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.97005091344714,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.24536319077014923,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.95507637017072,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.25889480113983154,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.88769092542678,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.010756901157613534,
+      "native_background_nonzero_pct": 0.15345799940635205
+    }
+  }
+}

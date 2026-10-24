@@ -1,0 +1,20 @@
+{
+  "poses": [
+    {
+      "name": "speaking",
+      "seed": 12345,
+      "prompt": "gentle friendly smiling expression, mouth slightly open, one hand open near waist in a conversational gesture, other arm relaxed, front view, standing pose"
+    },
+    {
+      "name": "listening",
+      "seed": 23456,
+      "prompt": "calm attentive expression, mouth closed, arms relaxed at sides, looking at the viewer, front view, standing pose"
+    },
+    {
+      "name": "thinking",
+      "seed": 34567,
+      "prompt": "thoughtful pensive expression, mouth closed, one hand resting under chin, gaze slightly averted, front view, standing pose"
+    }
+  ],
+  "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e"
+}

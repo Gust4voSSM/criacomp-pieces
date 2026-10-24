@@ -1,0 +1,26 @@
+{
+  "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e",
+  "description": "a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers",
+  "images": [
+    {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+    },
+    {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+    }
+  ],
+  "order": [
+    "image_1.png",
+    "image_2.png"
+  ]
+}

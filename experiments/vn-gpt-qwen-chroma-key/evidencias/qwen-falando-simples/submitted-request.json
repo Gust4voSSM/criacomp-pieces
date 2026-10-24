@@ -1,0 +1,10 @@
+{
+  "poses": [
+    {
+      "name": "speaking",
+      "seed": 12345,
+      "prompt": "Pose her calmly explaining something, with both feet planted and her torso in a shallow three-quarter turn. Raise one bent forearm beside her torso, palm facing upward with fingers loosely together. Rest the other hand against her hip. Keep her head facing the viewer, with a friendly expression and mouth slightly open."
+    }
+  ],
+  "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e"
+}

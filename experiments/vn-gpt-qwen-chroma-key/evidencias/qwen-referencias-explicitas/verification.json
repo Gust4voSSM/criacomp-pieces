@@ -1,0 +1,18 @@
+{
+  "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+  "mode": "RGBA",
+  "size": [
+    832,
+    1248
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_fraction": 0.7888824041543393,
+  "seconds": 70.310173372,
+  "seed": 12345,
+  "exact_prompt_match": true,
+  "common_identity_omitted": true,
+  "action_and_seed_match_previous": true,
+  "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e",
+  "sha256": "0933a7934af37ba1a2824753069a8b2e1ae4370374d480b17a356bbd53876ba7"
+}

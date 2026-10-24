@@ -1,0 +1,41 @@
+{
+  "seconds": 123.619212538,
+  "images": [
+    {
+      "file": "vn_qwen/sprite_listening_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7622917822361933
+    },
+    {
+      "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7713187253451677
+    },
+    {
+      "file": "vn_qwen/sprite_thinking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7757989706607495
+    }
+  ],
+  "comfy_commit": "faa7e494f3a0c9e45e1c3db8d20ee48fd5fe1b52",
+  "model": "Qwen-Image-2.1",
+  "native_rgba": true
+}

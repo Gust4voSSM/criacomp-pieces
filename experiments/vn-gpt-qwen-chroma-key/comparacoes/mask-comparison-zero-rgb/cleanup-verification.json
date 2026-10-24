@@ -1,0 +1,110 @@
+[
+  {
+    "label": "Atual: falando",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 360304,
+    "alignment_1px_delta_pp": 0.026571011026959468
+  },
+  {
+    "label": "Atual: ouvindo",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 328347,
+    "alignment_1px_delta_pp": 0.2181724845995916
+  },
+  {
+    "label": "Atual: refletindo",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 337440,
+    "alignment_1px_delta_pp": -0.07075137965189526
+  },
+  {
+    "label": "Anterior: falando",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 362216,
+    "alignment_1px_delta_pp": 0.2699460107978524
+  },
+  {
+    "label": "Anterior: ouvindo",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 329129,
+    "alignment_1px_delta_pp": 0.15396458814473135
+  },
+  {
+    "label": "Anterior: refletindo",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 340294,
+    "alignment_1px_delta_pp": -0.12547051442911084
+  },
+  {
+    "label": "FLUX + BiRefNet",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 3392,
+    "alignment_1px_delta_pp": 0.0
+  },
+  {
+    "label": "FLUX + mascara GPT",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 2143,
+    "alignment_1px_delta_pp": 0.8488681757656451
+  },
+  {
+    "label": "GPT RGB primeiro",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 164643,
+    "alignment_1px_delta_pp": 0.1200160021336103
+  },
+  {
+    "label": "GPT mascara primeiro",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 153758,
+    "alignment_1px_delta_pp": 1.1246063877642882
+  },
+  {
+    "label": "Qwen Spaces",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 357842,
+    "alignment_1px_delta_pp": -3.1671858774662383
+  },
+  {
+    "label": "Qwen Modal seed 12345",
+    "native_size_preserved": true,
+    "alpha_unchanged": true,
+    "rgb_at_alpha_gt_zero_unchanged": true,
+    "compositions_identical_on_three_backgrounds": true,
+    "zeroed_pixels": 286156,
+    "alignment_1px_delta_pp": -1.2474615607774808
+  }
+]

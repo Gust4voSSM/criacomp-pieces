@@ -1,0 +1,35 @@
+[
+  {
+    "file": "sprite_speaking_rgba_00001_.png",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "sha256": "3b263b546047af9609a6e88800f44111e7e9a3d24f430eb9b17f5d13e3b05c18"
+  },
+  {
+    "file": "sprite_listening_rgba_00001_.png",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "sha256": "543f98b37c54af82c910fc1c38717a254745a1f044493b1a0137dcf80f41e6e5"
+  },
+  {
+    "file": "sprite_thinking_rgba_00001_.png",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "sha256": "167c1da1be16c91fe4ba43ace83e22e4d291a2177a1f54fb28c4d5e2ce4971c3"
+  }
+]

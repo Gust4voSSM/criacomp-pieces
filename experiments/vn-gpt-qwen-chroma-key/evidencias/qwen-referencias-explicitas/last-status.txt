@@ -1,0 +1,20 @@
+HTTP 200
+{
+  "job_id": "fc-01M5NKPHYQXNPDBVSVSJY0W02G",
+  "status": "completed",
+  "images": [
+    {
+      "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7888824041543393
+    }
+  ],
+  "seconds": 70.310173372,
+  "download_url": "/jobs/fc-01M5NKPHYQXNPDBVSVSJY0W02G/download"
+}

@@ -1,0 +1,462 @@
+{
+  "method_source": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\flux2-aceno-alpha\\compare_rgb_alpha.py",
+  "method_source_sha256": "ef9caac7616e8a7940b5d0ff0fdb53097ff84591b09631955ffa0cde02cbfeb7",
+  "results": [
+    {
+      "label": "Atual: falando",
+      "group": "current",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+      "sha256": "f58ef0f623fb30e6013e14fae3033fdb0d65a7b1b8bb1691a665481c125750f0",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.2531266212463379,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.65457685664938,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.2555730640888214,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.60143483459547,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.26399797201156616,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.3888667463797,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5792371128333839,
+      "native_background_nonzero_pct": 55.321455167278046
+    },
+    {
+      "label": "Atual: ouvindo",
+      "group": "current",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_listening_rgba_00001_.png",
+      "sha256": "4307eff83f8fbec3dc64bc5352067ef218725f2fc73cc7d923281c1bcfc0978c",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.3037306070327759,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.17864476386036,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.3045317828655243,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.10164271047228,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.30825355648994446,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 98.89630390143738,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5803909731765805,
+      "native_background_nonzero_pct": 58.03492441481992
+    },
+    {
+      "label": "Atual: refletindo",
+      "group": "current",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+      "sha256": "4894d7bde2cdaf87793b065d52337de65264a25570b56aeddf290cb4a5de3959",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.2657622992992401,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.81604641290505,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.26624542474746704,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.80189613697466,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.2671530544757843,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.78774586104429,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5770676308474415,
+      "native_background_nonzero_pct": 57.70553973507684
+    },
+    {
+      "label": "Anterior: falando",
+      "group": "previous",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+      "sha256": "3b263b546047af9609a6e88800f44111e7e9a3d24f430eb9b17f5d13e3b05c18",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.27063998579978943,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.59508098380324,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.27466344833374023,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.37012597480503,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.2886854112148285,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.23515296940612,
+          "within_2px_pct": 99.94001199760048
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5857222109464854,
+      "native_background_nonzero_pct": 55.53832622961911
+    },
+    {
+      "label": "Anterior: ouvindo",
+      "group": "previous",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_listening_rgba_00001_.png",
+      "sha256": "543f98b37c54af82c910fc1c38717a254745a1f044493b1a0137dcf80f41e6e5",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.2942553460597992,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.3456505003849,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.29578208923339844,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.21734667693097,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.30109575390815735,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 98.90941750064151,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.581261064808312,
+      "native_background_nonzero_pct": 58.12471577436622
+    },
+    {
+      "label": "Anterior: refletindo",
+      "group": "previous",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+      "sha256": "167c1da1be16c91fe4ba43ace83e22e4d291a2177a1f54fb28c4d5e2ce4971c3",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.2763822376728058,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.68632371392722,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.2772313952445984,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.63927227101631,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.2786429524421692,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.60790464240903,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5827134428813324,
+      "native_background_nonzero_pct": 58.26961374213268
+    },
+    {
+      "label": "FLUX + BiRefNet",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\flux2-aceno-alpha\\source-sprite_00001_.png",
+      "sha256": "4d86c1962311f59f78cb6166843f4bf2b5be4abe4a5cb91a44b0448711670876",
+      "native_size": [
+        768,
+        1152
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.31083446741104126,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.3362038033728,
+          "within_2px_pct": 99.98205956225333
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.32219207286834717,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.156799425906,
+          "within_2px_pct": 99.96411912450664
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.3319542109966278,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.12091855041263,
+          "within_2px_pct": 99.96411912450664
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.0,
+      "native_background_nonzero_pct": 0.0
+    },
+    {
+      "label": "FLUX + mascara GPT",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\flux2-aceno-alpha\\flux2-generated-mask-rgba.png",
+      "sha256": "cc7c94e31c3f4a04f454c27b913f5f6729c925d04434031c5c5ea416f29aa6af",
+      "native_size": [
+        768,
+        1152
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.5619626045227051,
+          "p95_distance_px": 1.4142135381698608,
+          "within_1px_pct": 91.34487350199734,
+          "within_2px_pct": 99.16777629826898
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.5849400162696838,
+          "p95_distance_px": 2.0,
+          "within_1px_pct": 90.56258322237018,
+          "within_2px_pct": 98.58521970705726
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.5979585647583008,
+          "p95_distance_px": 2.0,
+          "within_1px_pct": 89.88015978695073,
+          "within_2px_pct": 98.46870838881492
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.05029204742309203,
+      "native_background_nonzero_pct": 5.0292047423092034
+    },
+    {
+      "label": "GPT RGB primeiro",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\pose-from-refs\\pose-rgba.png",
+      "sha256": "09d5b2621fb4af99e6a80ae804f541f329daa96c1be0d10f26e56e7dc7a591f1",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.37618955969810486,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 97.70636084811308,
+          "within_2px_pct": 99.85331377517002
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.3821457326412201,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 97.35964795306042,
+          "within_2px_pct": 99.75996799573277
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.39684274792671204,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 96.97292972396319,
+          "within_2px_pct": 99.41325510068009
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.049902728784226136,
+      "native_background_nonzero_pct": 4.990183392483539
+    },
+    {
+      "label": "GPT mascara primeiro",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\mask-first\\pose-rgba.png",
+      "sha256": "306299bb49eac8e9a135b50782cab9a1ab85534fa2268e9d72beceae7ddb7147",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 1.0312269926071167,
+          "p95_distance_px": 3.0,
+          "within_1px_pct": 71.98980356875093,
+          "within_2px_pct": 89.78857399910032
+        },
+        "canny_60_160": {
+          "mean_distance_px": 1.0598549842834473,
+          "p95_distance_px": 3.0,
+          "within_1px_pct": 71.22507122507122,
+          "within_2px_pct": 88.67896236317289
+        },
+        "canny_100_200": {
+          "mean_distance_px": 1.0756779909133911,
+          "p95_distance_px": 3.0,
+          "within_1px_pct": 70.8502024291498,
+          "within_2px_pct": 88.19913030439346
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.04549807205586589,
+      "native_background_nonzero_pct": 4.549719111269289
+    },
+    {
+      "label": "Qwen Spaces",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\flux2-aceno-alpha\\qwen-spaces-native.png",
+      "sha256": "6b098ea46dd31e8375764fccbfdd45ae5c78249279e59c46527b5e6094706e30",
+      "native_size": [
+        832,
+        1248
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.43107813596725464,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.20387677397024,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.43636539578437805,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 98.92696434752509,
+          "within_2px_pct": 99.98269297334717
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.4486358165740967,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 98.07892004153686,
+          "within_2px_pct": 99.94807892004154
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.6055776349617898,
+      "native_background_nonzero_pct": 55.891068672024765
+    },
+    {
+      "label": "Qwen Modal seed 12345",
+      "group": "baseline",
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\flux2-aceno-alpha\\qwen-native-seed12345.png",
+      "sha256": "a9a64ed917502482ee6001675b70fb9b19b341cc75026cda9a4155c497bc6972",
+      "native_size": [
+        768,
+        1152
+      ],
+      "analysis_size": [
+        768,
+        1152
+      ],
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.5330430269241333,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.73890339425587,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.5341537594795227,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.66637655932695,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.5370299220085144,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.63736582535539,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.5830150625766792,
+      "native_background_nonzero_pct": 58.29941042659835
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# GPT: RGB seguido de máscara
+
+Textos e requests preservados do experimento. Os grafos e metadados dos PNGs acompanham as saídas quando disponíveis. Referências GPT fornecidas separadamente como frente e lateral.
+
+## prompts.txt
+
+```text
+Tool: built-in image_gen, two sequential calls.
+
+POSE:
+Use case: identity-preserve. Input image 1: front character design reference. Input image 2: side character design reference of the SAME character. Generate ONE new full-body visual novel sprite of this exact character, front view, cheerful happy smiling expression, waving one open hand beside her face, friendly standing pose; other arm relaxed downward. Preserve the reference character's facial design, violet eyes, long silver hair and side ponytail tied with a dark ribbon, navy/violet sailor uniform with white stripes and matching necktie, pleated skirt, white calf socks and brown loafers. Match the references' clean anime linework, soft cel shading and colors. Entire character visible from top of hair to soles, with a small clear margin on every side, centered in a portrait 2:3 canvas. Output 1024 pixels wide by 1536 pixels high. Background: perfectly uniform solid black RGB (0,0,0), opaque, no ground shadow, no scenery, no extra objects, no text. One character only, not a character sheet. Do not copy the neutral pose: clearly smile and raise the hand in a wave.
+
+MASK:
+Use case: background-extraction. Input image 1 is the exact edit target, a 1024x1536 RGB image. Produce ONLY its grayscale alpha matte, EXACTLY 1024 pixels wide by 1536 pixels high, same canvas and exact pixel alignment. Paint every part of the character solid white (255): all hair and fine flyaway strands, ribbon, face, both hands and individual fingers, sailor uniform, skirt, legs, socks and shoes. Background must be solid black (0), including actual gaps between fingers, arms, hair locks and legs. Gray permitted only for edge antialiasing. No interior details, no outlines, no shadows or texture within the white silhouette. Preserve EXACT source silhouette, camera, pose, framing, scale and pixel positions. Do not shift, crop, redraw, simplify hair, fill background gaps, or add holes to the body or clothing. This is an aligned segmentation mask, not a new illustration. Opaque black-and-white PNG, no text or labels.
+
+```

@@ -1,0 +1,1277 @@
+[
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front-prompt.txt",
+    "destination": "evidencias\\gpt-referencias\\front-prompt.txt",
+    "sha256": "524731d91629053988e80b6c286fdc76875a96439fa0bef79060f4cf2a8b45b1"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\gpt-referencias\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\MODAL-RESULTS.md",
+    "destination": "evidencias\\gpt-referencias\\MODAL-RESULTS.md",
+    "sha256": "3e7fca0e5a5d6d818df5d51a88714b7c2178ebc91f1dd71f7de917108f52fe59"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\PROMPT-CONCAT-REVIEW.md",
+    "destination": "evidencias\\gpt-referencias\\PROMPT-CONCAT-REVIEW.md",
+    "sha256": "11ba8d283ef3f2748c1a75d146418a4cf8def19a89e9436cad347f4c304dfac9"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\README.md",
+    "destination": "evidencias\\gpt-referencias\\README.md",
+    "sha256": "831fea5615ece421fd5adbb0537aef6d016e3d32b2c1324337271c1ac3d3ca28"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side-prompt.txt",
+    "destination": "evidencias\\gpt-referencias\\side-prompt.txt",
+    "sha256": "f441f442fe2ee179faa611494b9b595384af53d3a3baf3e18e7fc2fbd011f4d1"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side-request-sheet.png",
+    "destination": "evidencias\\gpt-referencias\\side-request-sheet.png",
+    "sha256": "7bed2a3101d22ec99c6d674de644011bd6d65e476e2b347bf27bb006a885c3d3"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side-separate-prompt.txt",
+    "destination": "evidencias\\gpt-referencias\\side-separate-prompt.txt",
+    "sha256": "692934ea3070a65a51c855ebeec97a9f786ba9a91dc873cb444d2bcc48fb49b9"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\gpt-referencias\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-actual-request-dry-run.json",
+    "destination": "evidencias\\gpt-referencias\\vn-actual-request-dry-run.json",
+    "sha256": "c46d05c152c09525bec73f0b8a6e19e89d12bfcd9bd149149559b7e774ce30b6"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-final-concatenated-prompts.txt",
+    "destination": "evidencias\\gpt-referencias\\vn-final-concatenated-prompts.txt",
+    "sha256": "42b922de4cf0c9cf3efab8d25bb7c17b040761667e4cb13b336fa641a9592105"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-poses-request.json",
+    "destination": "evidencias\\gpt-referencias\\vn-poses-request.json",
+    "sha256": "fc21f9bc8f8aa2dbebf92b18bfa6aa5a95723641b8bb4e6e8c562ca7548f6471"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-poses-short-request.json",
+    "destination": "evidencias\\gpt-referencias\\vn-poses-short-request.json",
+    "sha256": "377ebb34511600825f62868aa698e5995cd3ef19b986ccfdc4068a68028db9f9"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-prompt-review.json",
+    "destination": "evidencias\\gpt-referencias\\vn-prompt-review.json",
+    "sha256": "d6fde74560e9e5f2dd62fbbdce06f57b96e1b22749c609f280d080e2454005ec"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-proposed-workflow.json",
+    "destination": "evidencias\\gpt-referencias\\vn-proposed-workflow.json",
+    "sha256": "fdfb768b53413618a2e8efb31e7d20bb918cf577989c7db2665551535d0f33c2"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\gpt-referencias\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\comfy.log",
+    "destination": "evidencias\\qwen-primeiras-poses\\comfy.log",
+    "sha256": "64ffa20453f4696d9a28072b98ce9cb5ccc8fe615097b22824be962bbd82ef58"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\history.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\history.json",
+    "sha256": "5155b1d4e2e4fd23dba9cadf967ddcacdf6a197d7ea947a8660f6f96abc9bd65"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\request-workflow.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\request-workflow.json",
+    "sha256": "9f5b456bf4e9cffa290cc177c7c2a7a16ca43e5f4b00d9bd428bc57cb1aec0be"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\summary.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\summary.json",
+    "sha256": "637fe954ead541d505a200a0d8eade033ccb3ae10f5df22e38140af2c5282dd1"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_listening_rgba_00001_.png",
+    "destination": "evidencias\\qwen-primeiras-poses\\vn_qwen\\sprite_listening_rgba_00001_.png",
+    "sha256": "543f98b37c54af82c910fc1c38717a254745a1f044493b1a0137dcf80f41e6e5"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-primeiras-poses\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "3b263b546047af9609a6e88800f44111e7e9a3d24f430eb9b17f5d13e3b05c18"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-primeiras-poses\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "sha256": "167c1da1be16c91fe4ba43ace83e22e4d291a2177a1f54fb28c4d5e2ce4971c3"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-primeiras-poses\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-primeiras-poses\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-primeiras-poses\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-poses-request.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\vn-poses-request.json",
+    "sha256": "fc21f9bc8f8aa2dbebf92b18bfa6aa5a95723641b8bb4e6e8c562ca7548f6471"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-submitted-request.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\modal-submitted-request.json",
+    "sha256": "7add09e393d63a3b256993cf0ccd3d3fd45b97b48d202f95386202f0989f90c8"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-verification.json",
+    "destination": "evidencias\\qwen-primeiras-poses\\modal-verification.json",
+    "sha256": "b710c3b17056f7eedc515e2a45f22651efc2b9739f1710afe1ef4da7a1206744"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\MODAL-RESULTS.md",
+    "destination": "evidencias\\qwen-primeiras-poses\\MODAL-RESULTS.md",
+    "sha256": "3e7fca0e5a5d6d818df5d51a88714b7c2178ebc91f1dd71f7de917108f52fe59"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\job.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\job.json",
+    "sha256": "cf65f13ad6be521552f372eed44fdae0dbeb7c1f8b061cbd1aa7e4995d7f01e3"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\last-status.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\last-status.json",
+    "sha256": "e3e2f055d2e784d19b6c57156e5c667bf3bc483e27593d5c2e63a5c9cdc459bc"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\preview-alpha.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\preview-alpha.png",
+    "sha256": "4d41f5e8b954173eb1db696499b8b6ae2d97dd85fc59ba0430003af99aa32656"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\README.md",
+    "destination": "evidencias\\qwen-prompts-concatenados\\README.md",
+    "sha256": "f6489ef0194677b25366849d51decda8aaa325ba4747a22314e7e7b537d43c9e"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\reference-manifest.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\reference-manifest.json",
+    "sha256": "362e6b00f00293939a7047403082ffe92c0f95cec1bc64ba37cd59eedd749d4d"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\submitted-request.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\submitted-request.json",
+    "sha256": "2b10a9d5b37cac0816a5707411a8558bac347d95c65f3ab49a16243adfb7358f"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\three-poses.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\three-poses.png",
+    "sha256": "0d4fa74fb91aba292bc6db981241e3cd3b7a76f58b02d395ea9b8c5fd1924e8e"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\verification.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\verification.json",
+    "sha256": "86f78d6cd7fe849faef8ac9883701ae98f4ca982a4e9c641018eca7368d40435"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\comfy.log",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\comfy.log",
+    "sha256": "b31ec030b04cf2c9b2e02f1319c6058eb85fd361d8fafe895f7ab706c9956bd3"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\history.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\history.json",
+    "sha256": "b797a05597d17203c09b9fdb8c6fc0a2184dbdfccae263a79845b87ca3d2d208"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\request-workflow.json",
+    "sha256": "05f9f6c6e9e1f4d60bcd9312001c6248a9847c1388b581b7f5bcba27c7c46a25"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\summary.json",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\summary.json",
+    "sha256": "7b2a26198150c800be3bb129928c8c63a8779aac1fb37cb388bd658ba85e023c"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_listening_rgba_00001_.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\vn_qwen\\sprite_listening_rgba_00001_.png",
+    "sha256": "4307eff83f8fbec3dc64bc5352067ef218725f2fc73cc7d923281c1bcfc0978c"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "f58ef0f623fb30e6013e14fae3033fdb0d65a7b1b8bb1691a665481c125750f0"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\modal-concat-run\\results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "sha256": "4894d7bde2cdaf87793b065d52337de65264a25570b56aeddf290cb4a5de3959"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-prompts-concatenados\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-prompts-concatenados\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-final-concatenated-prompts.txt",
+    "destination": "evidencias\\qwen-prompts-concatenados\\vn-final-concatenated-prompts.txt",
+    "sha256": "42b922de4cf0c9cf3efab8d25bb7c17b040761667e4cb13b336fa641a9592105"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\before-after.png",
+    "destination": "evidencias\\qwen-duas-poses\\before-after.png",
+    "sha256": "46fca39ee40e030092c6fb5a6a24aef78b4fdf1b10791dcf6f0b4724735a5165"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\inspect_results.py",
+    "destination": "evidencias\\qwen-duas-poses\\inspect_results.py",
+    "sha256": "018476626ea5b812965dae664b2690dc69425668056bc1408de7b8574f498e9e"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\last-status.txt",
+    "destination": "evidencias\\qwen-duas-poses\\last-status.txt",
+    "sha256": "f790423ecee13d7bc8b03123b205d1a216e0efaa29156c7d0b73b9654c67b9ba"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\README.md",
+    "destination": "evidencias\\qwen-duas-poses\\README.md",
+    "sha256": "faedc791a63ae7643e5715b725d9468ac6f9421de99a2a33dd94fe49065ec2ff"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\submission-response.txt",
+    "destination": "evidencias\\qwen-duas-poses\\submission-response.txt",
+    "sha256": "27ce12986987b0437e9379b9e416eef96d73872c1a02335bada856a6a5bf25c6"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\submitted-request.json",
+    "destination": "evidencias\\qwen-duas-poses\\submitted-request.json",
+    "sha256": "31b13141aed44c1aa58a0d9a313f0834a52a95b4ec62989939b6777a8ba53385"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\two-poses.png",
+    "destination": "evidencias\\qwen-duas-poses\\two-poses.png",
+    "sha256": "94dbdfffdf6583a53eb23bf2d9962d2001a33609e9c08312b6e2fe595c598f2e"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\verification.json",
+    "destination": "evidencias\\qwen-duas-poses\\verification.json",
+    "sha256": "d690283eaa270e0933f6c4aff0cd66a993f57cf31123bf995d64575a47fff552"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\comfy.log",
+    "destination": "evidencias\\qwen-duas-poses\\results\\comfy.log",
+    "sha256": "94fdb083926ac0a2b5741b97e5991d1b9cc068d2bc3d969789099508a77322a3"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\history.json",
+    "destination": "evidencias\\qwen-duas-poses\\results\\history.json",
+    "sha256": "4ef315f18152b3d90af8fdfdd9c5c6a85ef621a32a46df66f160181aa8ad665c"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-duas-poses\\results\\request-workflow.json",
+    "sha256": "0de62ab3dcbb5811dec9aeb8e0159744d60262867073908eab6208c2629eddb9"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\summary.json",
+    "destination": "evidencias\\qwen-duas-poses\\results\\summary.json",
+    "sha256": "5d7502c231d42840b54f99a40aaba666990485ab798cb6e6bfbd511b2bcb6c12"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-duas-poses\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "0a559a9d1f4c91215311e92dbb4d34b9d0e79686531232041b787eb9e61f6255"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\two-pose-run\\results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-duas-poses\\results\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+    "sha256": "1ee78cf0b8e889f6c9269501301f5a8fd6554b51a338c9d39c633bf49feb983c"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-duas-poses\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-duas-poses\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-duas-poses\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\actual-prompt.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\actual-prompt.txt",
+    "sha256": "755556e7d3e31f9e92d90880a1bb4b9f17528d68414fe0cab6d39d1197b5499b"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\comparison.png",
+    "destination": "evidencias\\qwen-referencias-explicitas\\comparison.png",
+    "sha256": "e2350956d25e6a78c292d074a64484f73056fb581d94c0b5adebc912f827cd36"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\expected-prompt.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\expected-prompt.txt",
+    "sha256": "755556e7d3e31f9e92d90880a1bb4b9f17528d68414fe0cab6d39d1197b5499b"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\future-prompt-not-generated.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\future-prompt-not-generated.txt",
+    "sha256": "930f7a37ed9a887686eb332beb82dad95569186d6db894b4267e88e725ca4fb5"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\future-workflow.api.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\future-workflow.api.json",
+    "sha256": "fcdf1ae719d92429950aa75adb4a84cbab522a19524e5010ecfe7e48fed89bae"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\future-workflow.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\future-workflow.json",
+    "sha256": "aa479159c10408524d926af33b2225df535a2d46a039c20181a455ec8cb9f007"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\inspect_results.py",
+    "destination": "evidencias\\qwen-referencias-explicitas\\inspect_results.py",
+    "sha256": "3977bf6e086b8f98668adbe0c76d57802a1070f023e50b8c1d15a15581d18a79"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\last-status.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\last-status.txt",
+    "sha256": "a9a930ac4d803401f5af69b2a955870d2cdb0ad082444b98e8c3528c6f21a685"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\proposed.api.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\proposed.api.json",
+    "sha256": "30c08ed4598d1f20b53ac595b8bfcaaa1736f9bfd9e3921f9ae8885a5c6f8ef1"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\proposed.workflow.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\proposed.workflow.json",
+    "sha256": "a4bf91a00a127326f674a210e08a1e255196a64726f39f4b0061db0ea61adefd"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\README.md",
+    "destination": "evidencias\\qwen-referencias-explicitas\\README.md",
+    "sha256": "4f1d42485f197f0d6815b2509d850a6fdbfb7bda61b88da8fa1b27e1072f38fc"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\submission-response.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\submission-response.txt",
+    "sha256": "c959c989597f13d947a5eaea3669ff1aaf0c39dddee20b5666bf2b00fab0a496"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\submitted-request.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\submitted-request.json",
+    "sha256": "b7dac62f19dae57c71b69839643fb11f0d2fb3df1d1f5231e50b98ea53d5acb5"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\verification.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\verification.json",
+    "sha256": "c8e16c0dbedacd90a1a9a00965582c36e45cdcc963a4ffbcf218fe803cea3b24"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\results\\comfy.log",
+    "destination": "evidencias\\qwen-referencias-explicitas\\results\\comfy.log",
+    "sha256": "2276265430a37ba93eea6823af877e6f331507cdf5adedea78a80cbc1d16818e"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\results\\history.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\results\\history.json",
+    "sha256": "9c9d799b4859a4c18b46d9c2749e5dfb1918dfefd892b5e0fb34e2331bd849a6"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\results\\request-workflow.json",
+    "sha256": "fb10b5a81f0ca35bd4ecc127d3d8ded167d56b9677759faa26dec695e026f6e0"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\results\\summary.json",
+    "destination": "evidencias\\qwen-referencias-explicitas\\results\\summary.json",
+    "sha256": "dced556cf48b884d9623c9a1a33ddf2d8d070bbfdbbc078b2ad09ac1c86fe4d1"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\reference-views-run\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-referencias-explicitas\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "0933a7934af37ba1a2824753069a8b2e1ae4370374d480b17a356bbd53876ba7"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-referencias-explicitas\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-referencias-explicitas\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-referencias-explicitas\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\actual-prompt.txt",
+    "destination": "evidencias\\qwen-falando-simples\\actual-prompt.txt",
+    "sha256": "b318b298cc044859ad4c90b29c031c84bbefb3f414f68d09101728caf8de42f2"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\comparison.png",
+    "destination": "evidencias\\qwen-falando-simples\\comparison.png",
+    "sha256": "d35fdb0f6a46952371294f757398ef708c214fc158a4dc01cdb9008b0403de4a"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\inspect_results.py",
+    "destination": "evidencias\\qwen-falando-simples\\inspect_results.py",
+    "sha256": "ad233d329e1852972896bbaddca33e058ec6602a34c0d1e31f47c2a9335899b0"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\last-status.txt",
+    "destination": "evidencias\\qwen-falando-simples\\last-status.txt",
+    "sha256": "6051234b9af7c23aca8127de1906f5c52d8058265ad461ffc87e72403683d589"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\README.md",
+    "destination": "evidencias\\qwen-falando-simples\\README.md",
+    "sha256": "cecf7b65408f5cc06bdbe27fbbe223578c8e36bde9093cb8ba45169d23f011c1"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\submission-response.txt",
+    "destination": "evidencias\\qwen-falando-simples\\submission-response.txt",
+    "sha256": "78ea80da23b5b0b71ccc284eddde3e8c1083ff599ee302ff726caa0fa9229ceb"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\submitted-request.json",
+    "destination": "evidencias\\qwen-falando-simples\\submitted-request.json",
+    "sha256": "942849174859b2e72666643b392653e9311da020fa57f15673ef228e521a67d4"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\verification.json",
+    "destination": "evidencias\\qwen-falando-simples\\verification.json",
+    "sha256": "98ad0dd04faec59f37971797986af864c4b24470bcfef14a3e45429730e3ef2d"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\results\\comfy.log",
+    "destination": "evidencias\\qwen-falando-simples\\results\\comfy.log",
+    "sha256": "a978803cc296b02bb8e9376892d2a25c76156d2eb6d0aeb0f469e5daf19fea3b"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\results\\history.json",
+    "destination": "evidencias\\qwen-falando-simples\\results\\history.json",
+    "sha256": "67413cafc19beaba82a56fe7032a652cea831b7d1ca1cbae8cb81c87d022d956"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-falando-simples\\results\\request-workflow.json",
+    "sha256": "0017d72eab08fec4753022d836fa110cbed7becdfa4a4094ea1e5f1076d8119d"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\results\\summary.json",
+    "destination": "evidencias\\qwen-falando-simples\\results\\summary.json",
+    "sha256": "f822a22318718283dbe6fe38b37371a6e59e2a64e845da3d4ecc76b6c4bcffdf"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-simple-run\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-falando-simples\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "6c59de9ff6e8ee9b2b66155dfc8041f8c2701c0b65821c3c478593328b35a2cc"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-falando-simples\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-falando-simples\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-falando-simples\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\collect.py",
+    "destination": "evidencias\\qwen-cfg2\\collect.py",
+    "sha256": "37aee9e05b37cd1bf2cc54607e074bb7bd8ccfc5dc798d4dd5978b9594e1b8e2"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\comparison.png",
+    "destination": "evidencias\\qwen-cfg2\\comparison.png",
+    "sha256": "3552ddbc81b0d5e5fe9ba44b29a55172f52728e41ded13ef71b67d28ff8c16d0"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\hands-detail.png",
+    "destination": "evidencias\\qwen-cfg2\\hands-detail.png",
+    "sha256": "e50137e3cbfcdc5c449b5e30b29d8257cb13d214f01066c5569f1efc792287e3"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\inspect_results.py",
+    "destination": "evidencias\\qwen-cfg2\\inspect_results.py",
+    "sha256": "61d26c629a46d672c32a1cb177e6c31d302eb9552b22191c0c247f5e0eb3e603"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\README.md",
+    "destination": "evidencias\\qwen-cfg2\\README.md",
+    "sha256": "4a00ba10b691c434e9a6e0244a33ecf403611603bf335a2d6cfb2c19ca131acd"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\SOURCES.md",
+    "destination": "evidencias\\qwen-cfg2\\SOURCES.md",
+    "sha256": "72550071a4556ee04ae6863e13bd1395028152e5d6bdce3acce299701423c85d"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\verification.json",
+    "destination": "evidencias\\qwen-cfg2\\verification.json",
+    "sha256": "d210bfe48b94d55804fbfd53494524c08375afdeef1752129144ab94f25587dc"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\actual-positive-prompt.txt",
+    "destination": "evidencias\\qwen-cfg2\\control\\actual-positive-prompt.txt",
+    "sha256": "b318b298cc044859ad4c90b29c031c84bbefb3f414f68d09101728caf8de42f2"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\job.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\job.json",
+    "sha256": "3028942aaf7e2bd4c514747d2825d41a8eb703dca574d3d377514f9632885e3c"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\last-status.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\last-status.json",
+    "sha256": "0edbf23397894fefbf44259ac99c88cb7da2857146e1d006ad0b767410f1163e"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\submitted-request.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\submitted-request.json",
+    "sha256": "68f1a5a2abf215d0f6f1d37bf4e86741ca3032c5abe3c96f4235f9cca4a2219a"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\results\\comfy.log",
+    "destination": "evidencias\\qwen-cfg2\\control\\results\\comfy.log",
+    "sha256": "13e2a823ae7847934cae9d32a219f2e6924175abc67490fbf0fff0a90f6bc5a4"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\results\\history.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\results\\history.json",
+    "sha256": "df1bc2d030d126cefe91ba2a9e94ef33c54f4744ab047d1bad17ce18ab37c1db"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\results\\request-workflow.json",
+    "sha256": "13230d56349096d6c6a94f8e5fd24244d399f45e8456039fafd0ff81e887bba9"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\results\\summary.json",
+    "destination": "evidencias\\qwen-cfg2\\control\\results\\summary.json",
+    "sha256": "6964fe3855e9f543e5adb2c565b80671371b291fa50d5ab949962c14da98f792"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\control\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-cfg2\\control\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "395a0e31806322d8d1a4d5ac506f794e3bdd336a2e3b9632e3b33076c2e73653"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\actual-positive-prompt.txt",
+    "destination": "evidencias\\qwen-cfg2\\negative\\actual-positive-prompt.txt",
+    "sha256": "b318b298cc044859ad4c90b29c031c84bbefb3f414f68d09101728caf8de42f2"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\job.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\job.json",
+    "sha256": "2f3218518f2fe0525a380499735b0d227d9563d82a572427397833e86ea441fd"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\last-status.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\last-status.json",
+    "sha256": "d777d3744c1ea162b16c232edcd1d090a058317b964d3d97c534411d63d3a504"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\submitted-request.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\submitted-request.json",
+    "sha256": "ae293de5b1f78db7d10fc0513be6fac6b44895cb2d88cfb6bdb46533c8da49fe"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\results\\comfy.log",
+    "destination": "evidencias\\qwen-cfg2\\negative\\results\\comfy.log",
+    "sha256": "4efb2ead267aff0c175b5aced68d9ff45e94d3445ad8d17c5643100b6dc46b99"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\results\\history.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\results\\history.json",
+    "sha256": "66c9e99efb6cd9d48c857b2de60693756e4796c0787833d56f0220e0d193724f"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\results\\request-workflow.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\results\\request-workflow.json",
+    "sha256": "077b4e899e6c638f30f0d82f42bbd32414f8d33083c707b37d14e91e379dc0bf"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\results\\summary.json",
+    "destination": "evidencias\\qwen-cfg2\\negative\\results\\summary.json",
+    "sha256": "3e9848aad427d585bf5c53286fe9c1ac7f784cb4fc05bdcd9ae81dde25ad5704"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\speaking-cfg2-run\\negative\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "destination": "evidencias\\qwen-cfg2\\negative\\results\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+    "sha256": "9ffea748031c42656a2cba8cc0498db56ee5ceb01662f4ef29f495370f153515"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\front.png",
+    "destination": "evidencias\\qwen-cfg2\\references\\front.png",
+    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\side.png",
+    "destination": "evidencias\\qwen-cfg2\\references\\side.png",
+    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+  },
+  {
+    "source": "output\\imagegen\\gpt-charsheets-original-prompts\\vn-reference-description.txt",
+    "destination": "evidencias\\qwen-cfg2\\references\\vn-reference-description.txt",
+    "sha256": "d6749c5ee94f62b602780be052b871121709dce2d6de1e76d2445a1bc9f072ef"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\pose-mask.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\pose-mask.png",
+    "sha256": "9bafe677a81803e963757c93ff444301da1493f28aa6c03bfd407aab0fd35022"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\pose-rgb.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\pose-rgb.png",
+    "sha256": "cb56defaa96fe1034d090afd744867c777b90a1d1c26ada5d6b2552f5abb6cb5"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\pose-rgba.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\pose-rgba.png",
+    "sha256": "09d5b2621fb4af99e6a80ae804f541f329daa96c1be0d10f26e56e7dc7a591f1"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\prompts.txt",
+    "destination": "evidencias\\gpt-rgb-mascara\\prompts.txt",
+    "sha256": "02a93ed0a5ea52d56baa30621246a8f8f5517427f1aa4019cdb6b6d0f5db4d88"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\README.md",
+    "destination": "evidencias\\gpt-rgb-mascara\\README.md",
+    "sha256": "761b122fcea46beb97ccd6081dfab35210c5e0ff2f8fe7264addc81d20101bff"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\ref-front.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\ref-front.png",
+    "sha256": "4cc9ed27acf1f4dff02863cbde85d5d19cdfdba329a8e84bfd7c1d9f97d8255c"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\ref-side.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\ref-side.png",
+    "sha256": "186dfe12b72b780fdd6229572fea30c66451f5a26365f14dd3556e03a7000983"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\rgb-vs-alpha-details.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\rgb-vs-alpha-details.png",
+    "sha256": "ced0173749790d9daa9dd1d99f79a1a22ee822236e9ba1cd5f318ba5c5a5951b"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\rgb-vs-alpha-metrics.json",
+    "destination": "evidencias\\gpt-rgb-mascara\\rgb-vs-alpha-metrics.json",
+    "sha256": "80c923018352187e7c71bdf6c8bfab3c712fa9f602ee5ec97d4f1557f8716231"
+  },
+  {
+    "source": "output\\imagegen\\pose-from-refs\\rgb-vs-alpha.png",
+    "destination": "evidencias\\gpt-rgb-mascara\\rgb-vs-alpha.png",
+    "sha256": "d6a903371c2bb6d679b6a27f91d366fbe622f4ddc8d3d80cb3a677351ffa210f"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\hand-check.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\hand-check.png",
+    "sha256": "542c686e863ed63910188fbe4bfdb4a3196c30e9532943d5f07f841426ca5e26"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\mask.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\mask.png",
+    "sha256": "145ab9806eeee111f6c939600a4ef67f766ef4f4fdce22e6de7b6fc112d9094e"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\pose-rgb.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\pose-rgb.png",
+    "sha256": "b61a2bf9f29f7e8224ca6742c34394774debbd527577dad38d2ed86baaf65f49"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\pose-rgba.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\pose-rgba.png",
+    "sha256": "306299bb49eac8e9a135b50782cab9a1ab85534fa2268e9d72beceae7ddb7147"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\prompts.txt",
+    "destination": "evidencias\\gpt-mascara-primeiro\\prompts.txt",
+    "sha256": "fc79d17c5869b1f56eeb2cc5b4be3fe7b508f31f3156bf55b7d1c803f5ff1bef"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\README.md",
+    "destination": "evidencias\\gpt-mascara-primeiro\\README.md",
+    "sha256": "f94c5d564e90149f48c39e165a84b37389a5d8c8dd93c695a98293306079a211"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\rgb-vs-alpha-details.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\rgb-vs-alpha-details.png",
+    "sha256": "254413f10bfcb38ce2335265d29453cb5d3bb1b9f45cdf56c8384a34d9ad4e68"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\rgb-vs-alpha-metrics.json",
+    "destination": "evidencias\\gpt-mascara-primeiro\\rgb-vs-alpha-metrics.json",
+    "sha256": "259d4026d20e2c92b5cada9d2352b4cae7fde8fa2cf7aa125d1ba7523ad03a31"
+  },
+  {
+    "source": "output\\imagegen\\mask-first\\rgb-vs-alpha.png",
+    "destination": "evidencias\\gpt-mascara-primeiro\\rgb-vs-alpha.png",
+    "sha256": "dfcef6aa33de92267b4065b7d766cb2cd3b402e4ef5ae57eaa5f22619d8b41f7"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\analyze.py",
+    "destination": "evidencias\\gpt-chroma-verde\\analyze.py",
+    "sha256": "4e8d5b1dee862692840cc951a070a8908fbfd92ec30dc7e46402e488fda71db1"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\compare-listening.png",
+    "destination": "evidencias\\gpt-chroma-verde\\compare-listening.png",
+    "sha256": "922992240da9323cf108a060a3b337b9aff1e40f3ab3ff3f361d56f7ba1f2f62"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\compare-speaking.png",
+    "destination": "evidencias\\gpt-chroma-verde\\compare-speaking.png",
+    "sha256": "14aea06ba88a5b3fafc002e1ea00a7eff46dbdf66dd951a2acc6ee8ba3282b15"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\compare-thinking.png",
+    "destination": "evidencias\\gpt-chroma-verde\\compare-thinking.png",
+    "sha256": "91eb9d9ad4025679a8f7eb3f65f58db93b329c9f38999d8d950ec0ecb95238cd"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\details-listening.png",
+    "destination": "evidencias\\gpt-chroma-verde\\details-listening.png",
+    "sha256": "87cf0863a5cf441491486e6cef617eb2d30a8c0fe474c70e3c7467ea0fa88275"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\details-speaking.png",
+    "destination": "evidencias\\gpt-chroma-verde\\details-speaking.png",
+    "sha256": "ace9a95dbfbde44073339ca1f88a827e53c9004bb8ded05d08098d21a8e202f3"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\details-thinking.png",
+    "destination": "evidencias\\gpt-chroma-verde\\details-thinking.png",
+    "sha256": "3248497d429430a30a30ffb9adc86a6034d22362703ac0778131bcc244cd4aa1"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\listening-green.png",
+    "destination": "evidencias\\gpt-chroma-verde\\listening-green.png",
+    "sha256": "2d0ad4a4dfdf9bcf870419b85f5ad97828e1915e5eb123133bc51a10018cae58"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\listening-hard-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\listening-hard-rgba.png",
+    "sha256": "a81dd3e57e2640230bdd3ac9866252ed12f1fdc67a340681a8d82aa36b6cb23e"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\listening-mask.png",
+    "destination": "evidencias\\gpt-chroma-verde\\listening-mask.png",
+    "sha256": "bfa2c93062164ac7697fda3127b9d673ac3052c34c9943fe4e0df3235996b8fd"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\listening-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\listening-rgba.png",
+    "sha256": "89fb6e3a87bed6143e5fb6da7159394915ea0ce89465cb81bd83e2e59a1892c9"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\listening-white-preview.png",
+    "destination": "evidencias\\gpt-chroma-verde\\listening-white-preview.png",
+    "sha256": "5cd352079f529d825350cd3fdc64c7909259ce928f617f6da27b0a1df0656381"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\metrics.csv",
+    "destination": "evidencias\\gpt-chroma-verde\\metrics.csv",
+    "sha256": "68254d924f15b3865b010354b791a65db3a66507d58cc7e7469f144d31ff4264"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\metrics.json",
+    "destination": "evidencias\\gpt-chroma-verde\\metrics.json",
+    "sha256": "239fa42e8ca88957dd0a8959110d6a78135e0d89d45e149cad829ac12bbf1ae5"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\overview.png",
+    "destination": "evidencias\\gpt-chroma-verde\\overview.png",
+    "sha256": "3bdae211fd4a3041eca8aa49ec5ad6ba2435ac1e51704eda736727d831e0ff30"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\prompts.json",
+    "destination": "evidencias\\gpt-chroma-verde\\prompts.json",
+    "sha256": "01668bf116e63f835593965a7ec19dcf500a48f0ec491d0ec6f7b6eeef15c4be"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\README.md",
+    "destination": "evidencias\\gpt-chroma-verde\\README.md",
+    "sha256": "fbe70d7446b663bcaa42ec92c7de2d86ded347480ee0758f114280342ade2ea9"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\speaking-dark-preview.png",
+    "destination": "evidencias\\gpt-chroma-verde\\speaking-dark-preview.png",
+    "sha256": "b6435db220ef555feef202eac922b3f6228779cbe26f6d462c949b40633ffe90"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\speaking-green.png",
+    "destination": "evidencias\\gpt-chroma-verde\\speaking-green.png",
+    "sha256": "8dbad9cf5429afdfbc03e1d32845671da7774bd56bde6a1474e9dea0fd195acc"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\speaking-hard-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\speaking-hard-rgba.png",
+    "sha256": "7da4a716ab366a60c464baf709de730c308f41d92a446c5660fc161d2d2f8f12"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\speaking-mask.png",
+    "destination": "evidencias\\gpt-chroma-verde\\speaking-mask.png",
+    "sha256": "c46d70049f91977e9f7d0a2c2de7eabd6135ec5aa2cfb0a3c95cfc33f44f8662"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\speaking-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\speaking-rgba.png",
+    "sha256": "f549c7fdbd85cefe99466b907d90f0757b24bfc1293f191b602173441f16d511"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\thinking-green.png",
+    "destination": "evidencias\\gpt-chroma-verde\\thinking-green.png",
+    "sha256": "599ce29debb1236d9c2784151987d261c291f62e26820af2a2668ce1596440f8"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\thinking-hard-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\thinking-hard-rgba.png",
+    "sha256": "46b103165b061c65fa0cae9a1f7ba99729b612550d6de8f5b9e91b02bcb32671"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\thinking-mask.png",
+    "destination": "evidencias\\gpt-chroma-verde\\thinking-mask.png",
+    "sha256": "70a6fbbab9880d0f9d0a4a07c4f7fc5af06818c094f879cbcacc434979f1ed6a"
+  },
+  {
+    "source": "output\\imagegen\\gpt-green-key-study\\thinking-rgba.png",
+    "destination": "evidencias\\gpt-chroma-verde\\thinking-rgba.png",
+    "sha256": "e97ca1b3260790fb764b3510ead3d38b7c1f8d7961345e15e3250c0b41feaf64"
+  },
+  {
+    "source": "output\\imagegen\\compare_all_masks.py",
+    "destination": "evidencias\\gpt-chroma-verde\\compare_all_masks.py",
+    "sha256": "2ff688287837264c258703270c2b4e87011276b9e86bbcb404f7a4b5d98f6c51"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\analyze.py",
+    "destination": "evidencias\\arara-chroma-verde\\analyze.py",
+    "sha256": "0242fbe8c19cedc33a7cbb293d8871ecb57e57947db1f4feb5e576981524a4ab"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\comparison.png",
+    "destination": "evidencias\\arara-chroma-verde\\comparison.png",
+    "sha256": "4f725b5dfc24a921e9b3aec4f5ddab25cce106a41d10bc350915497f1076ef47"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\distance-dark.png",
+    "destination": "evidencias\\arara-chroma-verde\\distance-dark.png",
+    "sha256": "396636f8765a66549119614df95106dd86f75122a0f45c2ca2e99b85b1b08265"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\distance-white.png",
+    "destination": "evidencias\\arara-chroma-verde\\distance-white.png",
+    "sha256": "def937008b80e8a88081229c4f8ff97e04df7eb8b7226758a5fb812b640204ac"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\front.png",
+    "destination": "evidencias\\arara-chroma-verde\\front.png",
+    "sha256": "df8120f191421cf3bcfe0f30163b4b6a378f9c28a0bd16ef08ecfc5d11e15277"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\hard-dark.png",
+    "destination": "evidencias\\arara-chroma-verde\\hard-dark.png",
+    "sha256": "80ba60ba4f2ee3be413034f2d5e3a61ef9aca2963b5d3e4d121c9f253bb7f379"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\hard-white.png",
+    "destination": "evidencias\\arara-chroma-verde\\hard-white.png",
+    "sha256": "8a20704fd2abc2a36d74ac1bf563c317d82b95f73031753dfe3343f9a2aac72e"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\metrics.json",
+    "destination": "evidencias\\arara-chroma-verde\\metrics.json",
+    "sha256": "6c72354d9060aa3387a953444e6093675dc1140cc29684f4dfd682ed4b839ef2"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\overview.png",
+    "destination": "evidencias\\arara-chroma-verde\\overview.png",
+    "sha256": "529a1f0a73a3973f3ed2ba2499fe7b6cc0ba6103c47d85ed269d72a60223a019"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-distance-mask.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-distance-mask.png",
+    "sha256": "6d0fd6676cd7fc4c5a9d31e400fe4a4e3e29255092c232df964db551dfa7adfe"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-distance-rgba.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-distance-rgba.png",
+    "sha256": "31a0c0bb3cd39320b8ee3db7ce06a7b05df8aedb65b90eba0a14de0cb927e70f"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-green.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-green.png",
+    "sha256": "2ae771b2ddcdd7f10d9a6975e29f72cbeed3f7fd14ed3953c3e2cd1a4c364ec6"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-hard-mask.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-hard-mask.png",
+    "sha256": "ca708c922ad521322baee8344f564077ea1a46752f8a0f3e39a6562996a1485f"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-hard-rgba.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-hard-rgba.png",
+    "sha256": "46ec89f04da105dc032b93ccb2201658fedb6354bd3fe3dcf4d790626108b93b"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-soft-mask.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-soft-mask.png",
+    "sha256": "8d07a884d1a4e48c1126584fc2668b51c9e1bbbf52377baccfbb476940d69150"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\pose-soft-rgba.png",
+    "destination": "evidencias\\arara-chroma-verde\\pose-soft-rgba.png",
+    "sha256": "68be9fe082f3e18eca92257d37a726e908010c3211a6cf14472dc9c24a652342"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\prompts.json",
+    "destination": "evidencias\\arara-chroma-verde\\prompts.json",
+    "sha256": "47c8477a58e943cfe50bcc3cc90a77666fdb8d0f514d45340c00dbc9969c688e"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\README.md",
+    "destination": "evidencias\\arara-chroma-verde\\README.md",
+    "sha256": "430ae7b8f5ed5f16576dc451e129cda331121c0bf75e6cdf37156545edf2434c"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\side.png",
+    "destination": "evidencias\\arara-chroma-verde\\side.png",
+    "sha256": "209d2e9ec94a2a76135e139a73f1ed08dbe15f282629c5f8a145c0206e101576"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\soft-dark.png",
+    "destination": "evidencias\\arara-chroma-verde\\soft-dark.png",
+    "sha256": "25fe3eeb73a3950a6932532483e1f5286adf565f3d27d631dc1006e05ed9a34e"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\soft-white.png",
+    "destination": "evidencias\\arara-chroma-verde\\soft-white.png",
+    "sha256": "857dca31026b1e7f2280eb00cb0315d87cfa2453fae3d0918f8c9c4f3e921d46"
+  },
+  {
+    "source": "output\\imagegen\\macaw-green-key-study\\wing-detail.png",
+    "destination": "evidencias\\arara-chroma-verde\\wing-detail.png",
+    "sha256": "1fc5c973d963aa6caf2c3e914c332ecc2231f9640a2042358d4c7583f1fb7570"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\comparison.png",
+    "destination": "evidencias\\arara-chroma-magenta\\comparison.png",
+    "sha256": "e72dff51b3774d851dbf0d6b8993c4b8a029125db59822c55f1439f370741f0f"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\distance-dark.png",
+    "destination": "evidencias\\arara-chroma-magenta\\distance-dark.png",
+    "sha256": "49d6b681207fa1374a8589ab5f369f604e0c716e87cb10f13cd70c9e8f294db0"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\distance-white.png",
+    "destination": "evidencias\\arara-chroma-magenta\\distance-white.png",
+    "sha256": "2b11b649c0b28a938efda95b644c8aa634a957e4c495353edf539073e15cf70e"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\edge-detail.png",
+    "destination": "evidencias\\arara-chroma-magenta\\edge-detail.png",
+    "sha256": "9c9b214456a4cf91d514617ad95bc1072fc519eb6a453221eaad06a964391dcd"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\fringe-comparison.png",
+    "destination": "evidencias\\arara-chroma-magenta\\fringe-comparison.png",
+    "sha256": "c8c40bb5cc1d960fb1481d84727aaa6b44e00eb6e27ebdfb799b8d97996f6c8a"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\key_magenta.py",
+    "destination": "evidencias\\arara-chroma-magenta\\key_magenta.py",
+    "sha256": "d29b23448868b706718f012092eb61d46d523c66b794c6316095a288546b6cd3"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\metrics.json",
+    "destination": "evidencias\\arara-chroma-magenta\\metrics.json",
+    "sha256": "0564b5a354c5b7073f76011ee9d779a3f4e8199522b913c5f5436f1f7ec26e29"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-distance-mask.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-distance-mask.png",
+    "sha256": "2433ee919c71b7eea6897ceca5a4f918281155740f3e9bd56957c52708a2d94c"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-distance-rgba.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-distance-rgba.png",
+    "sha256": "b2701c7bbfbadad586fc2873f6a4a908ea2dac24554e9af978bce408ec27eb79"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-magenta.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-magenta.png",
+    "sha256": "badbbb7d0a6248ec34db1e1caea5e7fbea15f513a91b0097907bb260227e51a5"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-raw-alpha-mask.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-raw-alpha-mask.png",
+    "sha256": "03e794639d7a9e4e0a98ad9348463768731a76844f0497645458b182390aada6"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-raw-alpha-rgba.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-raw-alpha-rgba.png",
+    "sha256": "8e2fa816a28cc6c0f2ecb240780d9916e0189411f747ebc77d038852c2f73f6d"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-recovered-mask.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-recovered-mask.png",
+    "sha256": "03e794639d7a9e4e0a98ad9348463768731a76844f0497645458b182390aada6"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\pose-recovered-rgba.png",
+    "destination": "evidencias\\arara-chroma-magenta\\pose-recovered-rgba.png",
+    "sha256": "976fde1461ffb4635ae45eefc8d495534abb365e5116850d17ce9efc54007a14"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\prompt.json",
+    "destination": "evidencias\\arara-chroma-magenta\\prompt.json",
+    "sha256": "9322ccf13917dc43e5354fc1a0400cbc48657dce5278400688ac4826472b4802"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\raw-alpha-dark.png",
+    "destination": "evidencias\\arara-chroma-magenta\\raw-alpha-dark.png",
+    "sha256": "ec1e74628b1280188febfa486d36bf1f82abe23ce5b85fe83a64569d039bba31"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\raw-alpha-white.png",
+    "destination": "evidencias\\arara-chroma-magenta\\raw-alpha-white.png",
+    "sha256": "e6ca38faab4562bbd8cac03f04d525372bd2c2ae39e6d5e6df77405a55a3e22f"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\README.md",
+    "destination": "evidencias\\arara-chroma-magenta\\README.md",
+    "sha256": "9388c50bc5e34df0cd4f04ed7de14c9defbfa2fafa5a13c4f4746eb241106183"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\recovered-dark.png",
+    "destination": "evidencias\\arara-chroma-magenta\\recovered-dark.png",
+    "sha256": "30fd7a3db83ef032b590dd08b396481ac2f7df7bcd974f01aedc77afae78de51"
+  },
+  {
+    "source": "output\\imagegen\\macaw-magenta-key-study\\recovered-white.png",
+    "destination": "evidencias\\arara-chroma-magenta\\recovered-white.png",
+    "sha256": "27d6e09e139d2f08fc4aeb76e51d0f2f76384a100c517532eee28f98ba53a187"
+  },
+  {
+    "source": "output\\peca-chroma-key\\rascunho.md",
+    "destination": "rascunho.md",
+    "sha256": "a3e41a8a704ff3805cd5d363240fd8e50e981e77088d0fd0dd617df9bf5d5090"
+  },
+  {
+    "source": "output\\imagegen\\qwen-vn-pose-study\\README.md",
+    "destination": "pesquisa-poses-qwen.md",
+    "sha256": "f2bb9bf28403fe0f918ec83081b1837f5e08aeb77962abf59290fc1f94667003"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\current-hands.png",
+    "destination": "comparacoes\\mask-comparison-all\\current-hands.png",
+    "sha256": "e6d34770e6d1cf9ba70f0a2c89878ae403746bc82b78076efae2212f879cbd62"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\metrics.csv",
+    "destination": "comparacoes\\mask-comparison-all\\metrics.csv",
+    "sha256": "cf43fc796aa43fa197b1d131bb0da769f83beccb02a8f370767d8cb1d300d447"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\metrics.json",
+    "destination": "comparacoes\\mask-comparison-all\\metrics.json",
+    "sha256": "b87a649bec024750fd305462d06f41c80e6209d9e886e3a17bebc0608c2d52a5"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\page-01.png",
+    "destination": "comparacoes\\mask-comparison-all\\page-01.png",
+    "sha256": "da494ca82d062d45c70f168465591c573e70bad0df1ce2bb89241c85aa6aedd2"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\page-02.png",
+    "destination": "comparacoes\\mask-comparison-all\\page-02.png",
+    "sha256": "fdcf76389724f4c3c7731e1685fbc9ab0247f2233d53c24daa7721f127081f1e"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\page-03.png",
+    "destination": "comparacoes\\mask-comparison-all\\page-03.png",
+    "sha256": "45f1abe628fed3b49a9fe59546c499ae345b2034be22f216485c64de0cb2e23d"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-all\\page-04.png",
+    "destination": "comparacoes\\mask-comparison-all\\page-04.png",
+    "sha256": "9ab011ae5f74a64c57af81408c94a75476ae5292cf0594eafb7b23f33bfabf2a"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleanup-verification.json",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleanup-verification.json",
+    "sha256": "5ed6b9a151f2cea8d4ce4bbea8ddafb5e956401ba22d772540b306c03d8d0e85"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\current-hands.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\current-hands.png",
+    "sha256": "a2fd58acb67847432cfb0b2e1af29d76ecbd7d675c6927b5d48048acd0e9935d"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\explorer-rgb-check.json",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\explorer-rgb-check.json",
+    "sha256": "f02c8ebe98cae4cf41a6156feb9755873b411fd2b4c3da87093af96128820088"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\explorer-rgb-check.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\explorer-rgb-check.png",
+    "sha256": "86d2b226e2b82e6030382f297cac8627102e0923d9342e917a70e37221deed30"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\metrics.csv",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\metrics.csv",
+    "sha256": "4852a57be8a27f3f5021e6d6f9bc51f50256d987630506ef12797c44708b3bc3"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\metrics.json",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\metrics.json",
+    "sha256": "8bd8718db202cf5d11f73f9ccc593abc0196220f7dd97b3f0f52324aa261c904"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\page-01.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\page-01.png",
+    "sha256": "578759b79b492e8438a2af98a7dd20842af4949408e13b61fc2f94b533f5c553"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\page-02.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\page-02.png",
+    "sha256": "ad1dd7d1188309483dbf638a588b94cac8fe236376753ce1654136119177c83e"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\page-03.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\page-03.png",
+    "sha256": "64bccb0cac0a33d7ff769f8b1de8966596e4e1b838ea3aad24cfc7e1dfe4ab6d"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\page-04.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\page-04.png",
+    "sha256": "08a1aeed06e859e16f380fd9b8d344ba76d9e4273c755dbeb47abbf1e5fe642a"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\README.md",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\README.md",
+    "sha256": "b1cb5b7df01b21c9925a6cf2e429fbcfa9c3f1743fa5c81057140f5eae88de0a"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\334f3062-flux2-generated-mask-rgba.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\334f3062-flux2-generated-mask-rgba.png",
+    "sha256": "9082d5b2d1023796c15d4e536724ecb79ffdb7387388944aecd43c855a9665c8"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\4baf0977-source-sprite_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\4baf0977-source-sprite_00001_.png",
+    "sha256": "6756066961ff446bbe47913b5765240f6f378c921059f807f437c349578ba5ec"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\9a07a139-qwen-spaces-native.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\9a07a139-qwen-spaces-native.png",
+    "sha256": "576408806fa736ece538121c6576534e8277497a882e654ee6842f09912295e5"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\b96b4136-pose-rgba.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\b96b4136-pose-rgba.png",
+    "sha256": "1fd717156528714dbe25d1daf2dc1d9921bba7613f03a1e93a1721f65c33f57c"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\c3917017-qwen-native-seed12345.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\c3917017-qwen-native-seed12345.png",
+    "sha256": "de9283e883af47b2d274288b778b47ab0db2d0f4df707725ee8d6077f44d5514"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\e8e3c7ea-pose-rgba.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\baseline\\imagegen\\e8e3c7ea-pose-rgba.png",
+    "sha256": "51d7a63accfee7551f1dca1b803a9c48f572c090ef974470c06249ccec1868f4"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\current\\results\\78c7b8db-sprite_listening_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\current\\results\\78c7b8db-sprite_listening_rgba_00001_.png",
+    "sha256": "b2e8993afc297addf2c36e28e108783034fa623594481e13f3ac9107c22a7874"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\current\\results\\95ec2e97-sprite_thinking_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\current\\results\\95ec2e97-sprite_thinking_rgba_00001_.png",
+    "sha256": "5f5cf692b10ef1f73e393357a5c00911528a6e05dd68fbbb3b137afa4b66a59f"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\current\\results\\998e77de-sprite_speaking_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\current\\results\\998e77de-sprite_speaking_rgba_00001_.png",
+    "sha256": "590528933591e9996aa0cad1b3877f79696326a6b5bd2584ee4341653515f168"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\422aa616-sprite_listening_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\422aa616-sprite_listening_rgba_00001_.png",
+    "sha256": "ae006118ef7739a014147b0da0240a91802bf3b70e9711cee2b596d4c35cd0f2"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\7178974f-sprite_thinking_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\7178974f-sprite_thinking_rgba_00001_.png",
+    "sha256": "12dcc274987125b27414b4adab80cc4c118e3d6fe4901fad56a6e1356cd1e738"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\893d1c44-sprite_speaking_rgba_00001_.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\cleaned\\previous\\modal-results\\893d1c44-sprite_speaking_rgba_00001_.png",
+    "sha256": "69804a197df5753a50c30cb1400efdc6bb498b5f26d1ca4fc8ff342fc908bb9a"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\listening.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\current-cleaned\\listening.png",
+    "sha256": "b2e8993afc297addf2c36e28e108783034fa623594481e13f3ac9107c22a7874"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\speaking.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\current-cleaned\\speaking.png",
+    "sha256": "590528933591e9996aa0cad1b3877f79696326a6b5bd2584ee4341653515f168"
+  },
+  {
+    "source": "output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\thinking.png",
+    "destination": "comparacoes\\mask-comparison-zero-rgb\\current-cleaned\\thinking.png",
+    "sha256": "5f5cf692b10ef1f73e393357a5c00911528a6e05dd68fbbb3b137afa4b66a59f"
+  }
+]

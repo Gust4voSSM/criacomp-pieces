@@ -1,0 +1,40 @@
+[
+  {
+    "label": "control",
+    "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+    "mode": "RGBA",
+    "size": [
+      832,
+      1248
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7837299294255424,
+    "seconds": 91.328834563,
+    "cfg": 2,
+    "seed": 12345,
+    "exact_positive_match": true,
+    "only_cfg_and_negative_nodes_changed": true,
+    "negative_prompt": "",
+    "sha256": "395a0e31806322d8d1a4d5ac506f794e3bdd336a2e3b9632e3b33076c2e73653"
+  },
+  {
+    "label": "negative",
+    "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+    "mode": "RGBA",
+    "size": [
+      832,
+      1248
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_fraction": 0.7803562623274162,
+    "seconds": 87.49374696800001,
+    "cfg": 2,
+    "seed": 12345,
+    "exact_positive_match": true,
+    "only_cfg_and_negative_nodes_changed": true,
+    "negative_prompt": "artifacts, washed-out colors, low quality, low resolution, blurry, extra fingers, missing fingers, deformed hands, bad anatomy, extra limbs, text, watermark, signature",
+    "sha256": "9ffea748031c42656a2cba8cc0498db56ee5ceb01662f4ef29f495370f153515"
+  }
+]

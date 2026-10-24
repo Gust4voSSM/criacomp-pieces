@@ -1,0 +1,1222 @@
+{
+  "prompt": [
+    0,
+    "88da7cc0-ec26-4d7a-91a6-1c772e7f481f",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "qwen_image_2.1_bf16.safetensors",
+          "weight_dtype": "default"
+        },
+        "_meta": {
+          "title": "Qwen Image 2.1 base"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_8b_bf16.safetensors",
+          "type": "qwen_image",
+          "device": "default"
+        },
+        "_meta": {
+          "title": "Qwen3-VL 8B"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+        },
+        "_meta": {
+          "title": "Qwen 2.1 native RGBA VAE"
+        }
+      },
+      "4": {
+        "class_type": "VNQwenEmptyLatent",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        },
+        "_meta": {
+          "title": "Shared Qwen canvas (64 channels)"
+        }
+      },
+      "5": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": "This is an RGBA image with transparency."
+        },
+        "_meta": {
+          "title": "Shared prefix"
+        }
+      },
+      "6": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": ""
+        },
+        "_meta": {
+          "title": "Shared character"
+        }
+      },
+      "7": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": "Full body, entire character visible with margin around head, hands and feet."
+        },
+        "_meta": {
+          "title": "Shared framing"
+        }
+      },
+      "8": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": "Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting."
+        },
+        "_meta": {
+          "title": "Shared style"
+        }
+      },
+      "9": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": "No scenery, no floor shadow, no text, no border."
+        },
+        "_meta": {
+          "title": "Shared constraints"
+        }
+      },
+      "10": {
+        "class_type": "VNQwenText",
+        "inputs": {
+          "text": "<image1> shows the front view of the character. <image2> shows the side view of the same character, wearing the same outfit. The image has alpha channel and the background is transparent."
+        },
+        "_meta": {
+          "title": "Shared suffix"
+        }
+      },
+      "11": {
+        "class_type": "VNQwenLoadReference",
+        "inputs": {
+          "path": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_1.png"
+        },
+        "_meta": {
+          "title": "Uploaded reference 1"
+        }
+      },
+      "12": {
+        "class_type": "VNQwenLoadReference",
+        "inputs": {
+          "path": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_2.png"
+        },
+        "_meta": {
+          "title": "Uploaded reference 2"
+        }
+      },
+      "13": {
+        "class_type": "VNQwenSpeedCanvas",
+        "inputs": {
+          "image": [
+            "12",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "Speed canvas from LAST reference"
+        }
+      },
+      "14": {
+        "class_type": "VNQwenPrompt",
+        "inputs": {
+          "prefix": [
+            "5",
+            0
+          ],
+          "character": [
+            "6",
+            0
+          ],
+          "framing": [
+            "7",
+            0
+          ],
+          "style": [
+            "8",
+            0
+          ],
+          "constraints": [
+            "9",
+            0
+          ],
+          "suffix": [
+            "10",
+            0
+          ],
+          "action": "Pose her calmly explaining something, with both feet planted and her torso in a shallow three-quarter turn. Raise one bent forearm beside her torso, palm facing upward with fingers loosely together. Rest the other hand against her hip. Keep her head facing the viewer, with a friendly expression and mouth slightly open."
+        },
+        "_meta": {
+          "title": "Action - speaking"
+        }
+      },
+      "15": {
+        "class_type": "TextEncodeQwenImage21",
+        "inputs": {
+          "clip": [
+            "2",
+            0
+          ],
+          "prompt": [
+            "14",
+            0
+          ],
+          "negative_prompt": "",
+          "vae": [
+            "3",
+            0
+          ],
+          "resolution": 1024,
+          "images.image_1": [
+            "11",
+            0
+          ],
+          "images.image_2": [
+            "12",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "RGBA references - speaking"
+        }
+      },
+      "16": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "seed": 12345,
+          "steps": 40,
+          "cfg": 2.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "positive": [
+            "15",
+            0
+          ],
+          "negative": [
+            "15",
+            1
+          ],
+          "latent_image": [
+            "13",
+            0
+          ],
+          "denoise": 1.0
+        },
+        "_meta": {
+          "title": "Generate - speaking"
+        }
+      },
+      "17": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "16",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        },
+        "_meta": {
+          "title": "Native RGBA - speaking"
+        }
+      },
+      "18": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "17",
+            0
+          ],
+          "filename_prefix": "vn_qwen/sprite_speaking_rgba"
+        },
+        "_meta": {
+          "title": "Save RGBA - speaking"
+        }
+      }
+    },
+    {
+      "extra_pnginfo": {
+        "workflow": {
+          "id": "98046874-315d-480b-b71a-4414391408c4",
+          "revision": 1,
+          "last_node_id": 18,
+          "last_link_id": 19,
+          "nodes": [
+            {
+              "id": 1,
+              "type": "UNETLoader",
+              "title": "Qwen Image 2.1 base",
+              "pos": [
+                0,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 0,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "MODEL",
+                  "type": "MODEL",
+                  "links": [
+                    13
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "UNETLoader"
+              },
+              "widgets_values": [
+                "qwen_image_2.1_bf16.safetensors",
+                "default"
+              ]
+            },
+            {
+              "id": 2,
+              "type": "CLIPLoader",
+              "title": "Qwen3-VL 8B",
+              "pos": [
+                0,
+                160
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 1,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "CLIP",
+                  "type": "CLIP",
+                  "links": [
+                    8
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "CLIPLoader"
+              },
+              "widgets_values": [
+                "qwen3vl_8b_bf16.safetensors",
+                "qwen_image",
+                "default"
+              ]
+            },
+            {
+              "id": 3,
+              "type": "VAELoader",
+              "title": "Qwen 2.1 native RGBA VAE",
+              "pos": [
+                0,
+                320
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 2,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "VAE",
+                  "type": "VAE",
+                  "links": [
+                    10,
+                    18
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VAELoader"
+              },
+              "widgets_values": [
+                "qwen_image_2.1_vae_bf16.safetensors"
+              ]
+            },
+            {
+              "id": 4,
+              "type": "VNQwenEmptyLatent",
+              "title": "Shared Qwen canvas (64 channels)",
+              "pos": [
+                0,
+                480
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 3,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenEmptyLatent"
+              },
+              "widgets_values": [
+                768,
+                1152,
+                1
+              ]
+            },
+            {
+              "id": 5,
+              "type": "VNQwenText",
+              "title": "Shared prefix",
+              "pos": [
+                0,
+                680
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 4,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    2
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                "This is an RGBA image with transparency."
+              ]
+            },
+            {
+              "id": 6,
+              "type": "VNQwenText",
+              "title": "Shared character",
+              "pos": [
+                0,
+                880
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 5,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    3
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                ""
+              ]
+            },
+            {
+              "id": 7,
+              "type": "VNQwenText",
+              "title": "Shared framing",
+              "pos": [
+                0,
+                1080
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 6,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    4
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                "Full body, entire character visible with margin around head, hands and feet."
+              ]
+            },
+            {
+              "id": 8,
+              "type": "VNQwenText",
+              "title": "Shared style",
+              "pos": [
+                0,
+                1280
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 7,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    5
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                "Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting."
+              ]
+            },
+            {
+              "id": 9,
+              "type": "VNQwenText",
+              "title": "Shared constraints",
+              "pos": [
+                0,
+                1480
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 8,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    6
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                "No scenery, no floor shadow, no text, no border."
+              ]
+            },
+            {
+              "id": 10,
+              "type": "VNQwenText",
+              "title": "Shared suffix",
+              "pos": [
+                0,
+                1680
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 9,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    7
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenText"
+              },
+              "widgets_values": [
+                "<image1> shows the front view of the character. <image2> shows the side view of the same character, wearing the same outfit. The image has alpha channel and the background is transparent."
+              ]
+            },
+            {
+              "id": 11,
+              "type": "VNQwenLoadReference",
+              "title": "Uploaded reference 1",
+              "pos": [
+                350,
+                -400
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 10,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "IMAGE",
+                  "type": "IMAGE",
+                  "links": [
+                    11
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenLoadReference"
+              },
+              "widgets_values": [
+                "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_1.png"
+              ]
+            },
+            {
+              "id": 12,
+              "type": "VNQwenLoadReference",
+              "title": "Uploaded reference 2",
+              "pos": [
+                350,
+                -250
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 11,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "IMAGE",
+                  "type": "IMAGE",
+                  "links": [
+                    1,
+                    12
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenLoadReference"
+              },
+              "widgets_values": [
+                "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_2.png"
+              ]
+            },
+            {
+              "id": 13,
+              "type": "VNQwenSpeedCanvas",
+              "title": "Speed canvas from LAST reference",
+              "pos": [
+                750,
+                -300
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 12,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "image",
+                  "type": "IMAGE",
+                  "link": 1
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": [
+                    16
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenSpeedCanvas"
+              },
+              "widgets_values": []
+            },
+            {
+              "id": 14,
+              "type": "VNQwenPrompt",
+              "title": "Action - speaking",
+              "pos": [
+                500,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 13,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "prefix",
+                  "type": "STRING",
+                  "link": 2
+                },
+                {
+                  "name": "character",
+                  "type": "STRING",
+                  "link": 3
+                },
+                {
+                  "name": "framing",
+                  "type": "STRING",
+                  "link": 4
+                },
+                {
+                  "name": "style",
+                  "type": "STRING",
+                  "link": 5
+                },
+                {
+                  "name": "constraints",
+                  "type": "STRING",
+                  "link": 6
+                },
+                {
+                  "name": "suffix",
+                  "type": "STRING",
+                  "link": 7
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "STRING",
+                  "type": "STRING",
+                  "links": [
+                    9
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VNQwenPrompt"
+              },
+              "widgets_values": [
+                "Pose her calmly explaining something, with both feet planted and her torso in a shallow three-quarter turn. Raise one bent forearm beside her torso, palm facing upward with fingers loosely together. Rest the other hand against her hip. Keep her head facing the viewer, with a friendly expression and mouth slightly open."
+              ]
+            },
+            {
+              "id": 15,
+              "type": "TextEncodeQwenImage21",
+              "title": "RGBA references - speaking",
+              "pos": [
+                900,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 14,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "clip",
+                  "type": "CLIP",
+                  "link": 8
+                },
+                {
+                  "name": "prompt",
+                  "type": "STRING",
+                  "link": 9,
+                  "widget": {
+                    "name": "prompt"
+                  }
+                },
+                {
+                  "name": "vae",
+                  "type": "VAE",
+                  "link": 10
+                },
+                {
+                  "name": "images.image_1",
+                  "type": "IMAGE",
+                  "link": 11
+                },
+                {
+                  "name": "images.image_2",
+                  "type": "IMAGE",
+                  "link": 12
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "CONDITIONING",
+                  "type": "CONDITIONING",
+                  "links": [
+                    14
+                  ]
+                },
+                {
+                  "name": "CONDITIONING",
+                  "type": "CONDITIONING",
+                  "links": [
+                    15
+                  ]
+                },
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "TextEncodeQwenImage21"
+              },
+              "widgets_values": [
+                "",
+                "",
+                0
+              ]
+            },
+            {
+              "id": 16,
+              "type": "KSampler",
+              "title": "Generate - speaking",
+              "pos": [
+                1300,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 15,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "model",
+                  "type": "MODEL",
+                  "link": 13
+                },
+                {
+                  "name": "positive",
+                  "type": "CONDITIONING",
+                  "link": 14
+                },
+                {
+                  "name": "negative",
+                  "type": "CONDITIONING",
+                  "link": 15
+                },
+                {
+                  "name": "latent_image",
+                  "type": "LATENT",
+                  "link": 16
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": [
+                    17
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "KSampler"
+              },
+              "widgets_values": [
+                12345,
+                "fixed",
+                40,
+                2.0,
+                "euler",
+                "simple",
+                1.0
+              ]
+            },
+            {
+              "id": 17,
+              "type": "VAEDecode",
+              "title": "Native RGBA - speaking",
+              "pos": [
+                1700,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 16,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "samples",
+                  "type": "LATENT",
+                  "link": 17
+                },
+                {
+                  "name": "vae",
+                  "type": "VAE",
+                  "link": 18
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "IMAGE",
+                  "type": "IMAGE",
+                  "links": [
+                    19
+                  ]
+                }
+              ],
+              "properties": {
+                "Node name for S&R": "VAEDecode"
+              },
+              "widgets_values": []
+            },
+            {
+              "id": 18,
+              "type": "SaveImage",
+              "title": "Save RGBA - speaking",
+              "pos": [
+                2100,
+                0
+              ],
+              "size": [
+                330,
+                100
+              ],
+              "flags": {},
+              "order": 17,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "images",
+                  "type": "IMAGE",
+                  "link": 19
+                }
+              ],
+              "outputs": [],
+              "properties": {
+                "Node name for S&R": "SaveImage"
+              },
+              "widgets_values": [
+                "vn_qwen/sprite_speaking_rgba"
+              ]
+            }
+          ],
+          "links": [
+            [
+              1,
+              12,
+              0,
+              13,
+              0,
+              "IMAGE"
+            ],
+            [
+              2,
+              5,
+              0,
+              14,
+              0,
+              "STRING"
+            ],
+            [
+              3,
+              6,
+              0,
+              14,
+              1,
+              "STRING"
+            ],
+            [
+              4,
+              7,
+              0,
+              14,
+              2,
+              "STRING"
+            ],
+            [
+              5,
+              8,
+              0,
+              14,
+              3,
+              "STRING"
+            ],
+            [
+              6,
+              9,
+              0,
+              14,
+              4,
+              "STRING"
+            ],
+            [
+              7,
+              10,
+              0,
+              14,
+              5,
+              "STRING"
+            ],
+            [
+              8,
+              2,
+              0,
+              15,
+              0,
+              "CLIP"
+            ],
+            [
+              9,
+              14,
+              0,
+              15,
+              1,
+              "STRING"
+            ],
+            [
+              10,
+              3,
+              0,
+              15,
+              2,
+              "VAE"
+            ],
+            [
+              11,
+              11,
+              0,
+              15,
+              3,
+              "IMAGE"
+            ],
+            [
+              12,
+              12,
+              0,
+              15,
+              4,
+              "IMAGE"
+            ],
+            [
+              13,
+              1,
+              0,
+              16,
+              0,
+              "MODEL"
+            ],
+            [
+              14,
+              15,
+              0,
+              16,
+              1,
+              "CONDITIONING"
+            ],
+            [
+              15,
+              15,
+              1,
+              16,
+              2,
+              "CONDITIONING"
+            ],
+            [
+              16,
+              13,
+              0,
+              16,
+              3,
+              "LATENT"
+            ],
+            [
+              17,
+              16,
+              0,
+              17,
+              0,
+              "LATENT"
+            ],
+            [
+              18,
+              3,
+              0,
+              17,
+              1,
+              "VAE"
+            ],
+            [
+              19,
+              17,
+              0,
+              18,
+              0,
+              "IMAGE"
+            ]
+          ],
+          "groups": [],
+          "config": {},
+          "extra": {
+            "ds": {
+              "scale": 0.4,
+              "offset": [
+                0,
+                0
+              ]
+            },
+            "vn_qwen": {
+              "model": "Qwen-Image-2.1",
+              "native_rgba": true,
+              "reference_mode": "external_pair_speed",
+              "prompt_mode": "reference_views_no_identity",
+              "prompt_extend": false,
+              "identity_description_in_prompt": false,
+              "reference_views_text": "<image1> shows the front view of the character. <image2> shows the side view of the same character, wearing the same outfit",
+              "cfg": 2.0,
+              "negative_prompt": "",
+              "reference_manifest": {
+                "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e",
+                "description": "a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers",
+                "images": [
+                  {
+                    "size": [
+                      1024,
+                      1536
+                    ],
+                    "mode": "RGB",
+                    "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+                  },
+                  {
+                    "size": [
+                      1024,
+                      1536
+                    ],
+                    "mode": "RGB",
+                    "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+                  }
+                ],
+                "order": [
+                  "image_1.png",
+                  "image_2.png"
+                ]
+              }
+            }
+          },
+          "version": 0.4
+        }
+      },
+      "workflow_metadata": {
+        "workflow_id": "98046874-315d-480b-b71a-4414391408c4"
+      },
+      "create_time": 1792801551985
+    },
+    [
+      "18"
+    ]
+  ],
+  "outputs": {
+    "18": {
+      "images": [
+        {
+          "filename": "sprite_speaking_rgba_00001_.png",
+          "subfolder": "vn_qwen",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 832,
+            "height": 1248
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "88da7cc0-ec26-4d7a-91a6-1c772e7f481f",
+          "timestamp": 1792801551987
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "88da7cc0-ec26-4d7a-91a6-1c772e7f481f",
+          "timestamp": 1792801551998
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "88da7cc0-ec26-4d7a-91a6-1c772e7f481f",
+          "timestamp": 1792801624945
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "18": {
+      "node_id": "18",
+      "display_node": "18",
+      "parent_node": null,
+      "real_node_id": "18"
+    }
+  }
+}

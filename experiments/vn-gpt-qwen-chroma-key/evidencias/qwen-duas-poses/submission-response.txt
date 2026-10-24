@@ -1,0 +1,7 @@
+HTTP 202
+{
+  "job_id": "fc-01M5NFPCXG62AVWVTGP697FSAK",
+  "expected_images": 2,
+  "status_url": "/jobs/fc-01M5NFPCXG62AVWVTGP697FSAK",
+  "download_url": "/jobs/fc-01M5NFPCXG62AVWVTGP697FSAK/download"
+}

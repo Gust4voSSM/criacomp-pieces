@@ -1,0 +1,260 @@
+{
+  "reference_encodes": [
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.003921568859368563,
+        0.003921568859368563,
+        0.0
+      ]
+    },
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.003921568859368563,
+        0.003921568859368563,
+        0.0
+      ]
+    },
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "shape": [
+        1,
+        1248,
+        832,
+        3
+      ],
+      "first_pixel": [
+        0.003921568859368563,
+        0.003921568859368563,
+        0.0
+      ]
+    }
+  ],
+  "tokenizations": [
+    {
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. gentle friendly smiling expression, mouth slightly open, one hand open near waist in a conversational gesture, other arm relaxed, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    },
+    {
+      "prompt": "",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    },
+    {
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. calm attentive expression, mouth closed, arms relaxed at sides, looking at the viewer, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    },
+    {
+      "prompt": "",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    },
+    {
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. thoughtful pensive expression, mouth closed, one hand resting under chin, gaze slightly averted, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    },
+    {
+      "prompt": "",
+      "sizes": [
+        [
+          1,
+          1248,
+          832,
+          3
+        ],
+        [
+          1,
+          1248,
+          832,
+          3
+        ]
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "dry-run\\output\\20261023-190117\\actual-request\\vn_qwen\\sprite_listening_rgba_00001_.png",
+      "size": [
+        832,
+        1248
+      ],
+      "mode": "RGBA",
+      "synthetic": true
+    },
+    {
+      "file": "dry-run\\output\\20261023-190117\\actual-request\\vn_qwen\\sprite_speaking_rgba_00001_.png",
+      "size": [
+        832,
+        1248
+      ],
+      "mode": "RGBA",
+      "synthetic": true
+    },
+    {
+      "file": "dry-run\\output\\20261023-190117\\actual-request\\vn_qwen\\sprite_thinking_rgba_00001_.png",
+      "size": [
+        832,
+        1248
+      ],
+      "mode": "RGBA",
+      "synthetic": true
+    }
+  ],
+  "valid": true,
+  "inference": false,
+  "network_calls": false,
+  "gpu_allocated": false,
+  "expected_outputs": 3,
+  "reference_manifest": {
+    "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e",
+    "description": "a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers",
+    "images": [
+      {
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB",
+        "sha256": "16489603aa5c7cdfd557f38af42250840a28347de4af95f4ed998d8f94fbfbc4"
+      },
+      {
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB",
+        "sha256": "26350ff92423d32be23584a84b9ea324acb7a48ff6a78b7807ac0d735f2f3eab"
+      }
+    ],
+    "order": [
+      "image_1.png",
+      "image_2.png"
+    ]
+  },
+  "concatenated_prompts": [
+    {
+      "name": "speaking",
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. gentle friendly smiling expression, mouth slightly open, one hand open near waist in a conversational gesture, other arm relaxed, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent."
+    },
+    {
+      "name": "listening",
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. calm attentive expression, mouth closed, arms relaxed at sides, looking at the viewer, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent."
+    },
+    {
+      "name": "thinking",
+      "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. thoughtful pensive expression, mouth closed, one hand resting under chin, gaze slightly averted, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent."
+    }
+  ]
+}

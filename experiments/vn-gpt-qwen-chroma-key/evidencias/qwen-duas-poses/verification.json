@@ -1,0 +1,40 @@
+[
+  {
+    "name": "speaking",
+    "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "action_matches_request": true,
+    "common_description_matches_previous_run": true,
+    "seed": 12345,
+    "steps": 40,
+    "cfg": 1.0,
+    "sha256": "0a559a9d1f4c91215311e92dbb4d34b9d0e79686531232041b787eb9e61f6255"
+  },
+  {
+    "name": "thinking",
+    "file": "vn_qwen/sprite_thinking_rgba_00001_.png",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "action_matches_request": true,
+    "common_description_matches_previous_run": true,
+    "seed": 34567,
+    "steps": 40,
+    "cfg": 1.0,
+    "sha256": "1ee78cf0b8e889f6c9269501301f5a8fd6554b51a338c9d39c633bf49feb983c"
+  }
+]

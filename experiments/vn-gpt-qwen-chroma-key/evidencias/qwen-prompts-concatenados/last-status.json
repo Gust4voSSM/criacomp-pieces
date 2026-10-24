@@ -1,0 +1,41 @@
+{
+  "job_id": "fc-01M5NCR7T6633YH0X518ZH5VQG",
+  "status": "completed",
+  "images": [
+    {
+      "file": "vn_qwen/sprite_listening_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7622917822361933
+    },
+    {
+      "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7713187253451677
+    },
+    {
+      "file": "vn_qwen/sprite_thinking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7757989706607495
+    }
+  ],
+  "seconds": 123.619212538,
+  "download_url": "/jobs/fc-01M5NCR7T6633YH0X518ZH5VQG/download"
+}

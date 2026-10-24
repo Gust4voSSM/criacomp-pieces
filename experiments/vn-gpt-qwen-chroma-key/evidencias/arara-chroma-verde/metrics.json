@@ -1,0 +1,133 @@
+{
+  "sampled_background_rgb": [
+    3.0,
+    250.0,
+    2.0
+  ],
+  "native_size": [
+    1024,
+    1536
+  ],
+  "screen_distance_settings": {
+    "transparent_distance": 8,
+    "opaque_distance": 80,
+    "space": "Euclidean RGB"
+  },
+  "manual_green_feather_patch": {
+    "box": [
+      270,
+      510,
+      300,
+      540
+    ],
+    "original_mean_rgb": [
+      78.27333333333333,
+      161.27666666666667,
+      37.10777777777778
+    ],
+    "results": {
+      "Soft key": {
+        "mean_alpha": 172.3322222222222,
+        "zero_alpha_pct": 0.0
+      },
+      "Hard HSV key": {
+        "mean_alpha": 2.8333333333333335,
+        "zero_alpha_pct": 98.88888888888889
+      },
+      "Screen distance": {
+        "mean_alpha": 255.0,
+        "zero_alpha_pct": 0.0
+      }
+    }
+  },
+  "method_sources": {
+    "key": {
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\gpt-green-key-study\\analyze.py",
+      "sha256": "4e8d5b1dee862692840cc951a070a8908fbfd92ec30dc7e46402e488fda71db1"
+    },
+    "measure": {
+      "path": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\compare_all_masks.py",
+      "sha256": "2ff688287837264c258703270c2b4e87011276b9e86bbcb404f7a4b5d98f6c51"
+    }
+  },
+  "results": {
+    "Soft key": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.28887683153152466,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.72231571861326,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.30081722140312195,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.61292494109728,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.31674373149871826,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.43621676203298,
+          "within_2px_pct": 99.97475597441938
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.00011661243714305217,
+      "native_background_nonzero_pct": 0.0014221028919884412
+    },
+    "Hard HSV key": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.17551709711551666,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.88389343997936,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.18360678851604462,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.87744307553376,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.1928621083498001,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.83229052441462,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.0,
+      "native_background_nonzero_pct": 0.0
+    },
+    "Screen distance": {
+      "alignment": {
+        "canny_30_80": {
+          "mean_distance_px": 0.3777824640274048,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.9403442986194,
+          "within_2px_pct": 100.0
+        },
+        "canny_60_160": {
+          "mean_distance_px": 0.3919147849082947,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.92329981251066,
+          "within_2px_pct": 100.0
+        },
+        "canny_100_200": {
+          "mean_distance_px": 0.4057621359825134,
+          "p95_distance_px": 1.0,
+          "within_1px_pct": 99.87216635418442,
+          "within_2px_pct": 100.0
+        }
+      },
+      "native_alpha_min": 0,
+      "native_alpha_max": 255,
+      "native_background_alpha_mean_0_255": 0.00034968478414457827,
+      "native_background_nonzero_pct": 0.001570013316567494
+    }
+  }
+}

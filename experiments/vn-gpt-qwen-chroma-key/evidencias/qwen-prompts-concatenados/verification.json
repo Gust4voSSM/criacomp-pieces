@@ -1,0 +1,44 @@
+[
+  {
+    "name": "speaking",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "seed": 12345,
+    "cfg": 1.0,
+    "steps": 40,
+    "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. gentle friendly smiling expression, mouth slightly open, one hand open near waist in a conversational gesture, other arm relaxed, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+    "prompt_matches_approved": true,
+    "sha256": "f58ef0f623fb30e6013e14fae3033fdb0d65a7b1b8bb1691a665481c125750f0"
+  },
+  {
+    "name": "listening",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "seed": 23456,
+    "cfg": 1.0,
+    "steps": 40,
+    "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. calm attentive expression, mouth closed, arms relaxed at sides, looking at the viewer, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+    "prompt_matches_approved": true,
+    "sha256": "4307eff83f8fbec3dc64bc5352067ef218725f2fc73cc7d923281c1bcfc0978c"
+  },
+  {
+    "name": "thinking",
+    "size": [
+      832,
+      1248
+    ],
+    "mode": "RGBA",
+    "seed": 34567,
+    "cfg": 1.0,
+    "steps": 40,
+    "prompt": "This is an RGBA image with transparency. a young woman with long silver hair in a side ponytail tied with a navy ribbon, violet eyes, wearing a navy-blue sailor school uniform with a white neck scarf and gold emblems, pleated skirt, dark thigh-high stockings and black loafers. thoughtful pensive expression, mouth closed, one hand resting under chin, gaze slightly averted, front view, standing pose. Full body, entire character visible with margin around head, hands and feet. Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting. No scenery, no floor shadow, no text, no border. The image has alpha channel and the background is transparent.",
+    "prompt_matches_approved": true,
+    "sha256": "4894d7bde2cdaf87793b065d52337de65264a25570b56aeddf290cb4a5de3959"
+  }
+]

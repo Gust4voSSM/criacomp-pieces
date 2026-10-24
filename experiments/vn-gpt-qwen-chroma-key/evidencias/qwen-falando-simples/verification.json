@@ -1,0 +1,18 @@
+{
+  "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+  "mode": "RGBA",
+  "size": [
+    832,
+    1248
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_fraction": 0.7744728103427022,
+  "seconds": 68.286988872,
+  "exact_action_match": true,
+  "identity_description_omitted": true,
+  "added_context_intro": false,
+  "seed": 12345,
+  "steps": 40,
+  "cfg": 1.0
+}

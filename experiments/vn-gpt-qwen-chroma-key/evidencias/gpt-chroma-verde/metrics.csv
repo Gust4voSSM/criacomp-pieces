@@ -1,0 +1,13 @@
+pose,variant,within_1px_pct,mean_distance_px,zero_rgb_within_1px_pct
+speaking,Green soft,99.1538,0.2907,99.1538
+speaking,Green hard HSV,99.6480,0.4152,99.7486
+speaking,Previous concat,99.6014,0.2556,99.6280
+speaking,Previous first,99.3701,0.2747,99.6401
+listening,Green soft,99.4977,0.2944,99.4977
+listening,Green hard HSV,99.6255,0.4168,99.8967
+listening,Previous concat,99.1016,0.3045,99.3198
+listening,Previous first,99.2173,0.2958,99.3713
+thinking,Green soft,98.6026,0.3924,98.6026
+thinking,Green hard HSV,98.4870,0.5399,99.8284
+thinking,Previous concat,99.8019,0.2662,99.7311
+thinking,Previous first,99.6393,0.2772,99.5138

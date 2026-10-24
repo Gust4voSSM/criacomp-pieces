@@ -1,0 +1,19 @@
+{
+  "job_id": "fc-01M5NMRHC4V1PM5BG326PCBHH6",
+  "status": "completed",
+  "images": [
+    {
+      "file": "vn_qwen/sprite_speaking_rgba_00001_.png",
+      "mode": "RGBA",
+      "size": [
+        832,
+        1248
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_fraction": 0.7803562623274162
+    }
+  ],
+  "seconds": 87.49374696800001,
+  "download_url": "/jobs/fc-01M5NMRHC4V1PM5BG326PCBHH6/download"
+}

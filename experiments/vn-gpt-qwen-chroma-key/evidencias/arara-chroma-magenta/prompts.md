@@ -1,0 +1,17 @@
+# Arara: pose sobre magenta e correção das bordas
+
+Textos e requests preservados do experimento. Os grafos e metadados dos PNGs acompanham as saídas quando disponíveis. Referências GPT fornecidas separadamente como frente e lateral.
+
+## prompt.json
+
+```json
+{
+  "tool": "built-in image_gen",
+  "references": [
+    "../macaw-green-key-study/front.png",
+    "../macaw-green-key-study/side.png"
+  ],
+  "prompt": "Use Image 1 as the front character reference and Image 2 as the side character reference. Generate the same macaw character in one new full-body pose: cheerful greeting, beak slightly open, one wing raised and fanned outward in a welcoming wave, other wing lowered slightly away from body, three-quarter frontal standing stance. Preserve the reference's exact colors and feather bands, satchel, face, proportions and illustration style. An original anthropomorphic green-winged macaw adventurer character, upright bipedal bird with natural bird anatomy and feathered wings used as arms. Scarlet-red head, neck, breast and upper wing shoulders; broad saturated leaf-green middle wing feather bands; saturated royal-blue outer flight feathers and long blue-and-red tail; white bare face patches with fine red feather lines, pale ivory hooked upper beak, dark lower beak, expressive dark eyes, gray scaled feet with claws. A small tan leather cross-body satchel, no other clothing. The green bands are broad visible parts of both wings, including exposed feather edges. Clean stylized 2D animation character art, crisp dark linework, flat cel shading, consistent proportions. Entire character, both wingtips, feet and tail visible with generous margin. Single character, single pose, portrait canvas. Background: perfectly flat bright chroma magenta #FF00FF throughout, also in gaps between feathers and limbs. Keep the character's own feathers their original reference colors. No scenery, no floor shadow, no text, no labels, no gradients or texture in background. Output opaque RGB."
+}
+
+```

@@ -1,0 +1,10 @@
+{
+  "poses": [
+    {
+      "name": "speaking",
+      "seed": 12345,
+      "prompt": "Shift her weight onto one leg with the opposite knee relaxed, moving the hips slightly toward screen-right. Turn the torso gently toward screen-left while keeping the face directed toward the viewer. Lean forward a little as if inviting a response. Extend one forearm toward screen-left at lower-chest height with the palm open upward and a clear gap between elbow and waist. Bend the other arm with its hand resting lightly at her waist. Give the shoulders a gentle opposing tilt to the hips. Friendly engaged smile, mouth slightly open, eyes on the viewer."
+    }
+  ],
+  "reference_id": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e"
+}

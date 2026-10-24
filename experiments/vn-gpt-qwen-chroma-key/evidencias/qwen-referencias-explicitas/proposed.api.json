@@ -1,0 +1,249 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_bf16.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "Qwen Image 2.1 base"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_bf16.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "Qwen3-VL 8B"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    },
+    "_meta": {
+      "title": "Qwen 2.1 native RGBA VAE"
+    }
+  },
+  "4": {
+    "class_type": "VNQwenEmptyLatent",
+    "inputs": {
+      "width": 768,
+      "height": 1152,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "Shared Qwen canvas (64 channels)"
+    }
+  },
+  "5": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "This is an RGBA image with transparency."
+    },
+    "_meta": {
+      "title": "Shared prefix"
+    }
+  },
+  "6": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": ""
+    },
+    "_meta": {
+      "title": "Shared character"
+    }
+  },
+  "7": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "Full body, entire character visible with margin around head, hands and feet."
+    },
+    "_meta": {
+      "title": "Shared framing"
+    }
+  },
+  "8": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "Visual novel character illustration, anime style, flat anime cel shading, clean crisp lineart, soft even studio lighting."
+    },
+    "_meta": {
+      "title": "Shared style"
+    }
+  },
+  "9": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "No scenery, no floor shadow, no text, no border."
+    },
+    "_meta": {
+      "title": "Shared constraints"
+    }
+  },
+  "10": {
+    "class_type": "VNQwenText",
+    "inputs": {
+      "text": "<image1> shows the front view of the character. <image2> shows the side view of the same character, wearing the same outfit. The image has alpha channel and the background is transparent."
+    },
+    "_meta": {
+      "title": "Shared suffix"
+    }
+  },
+  "11": {
+    "class_type": "VNQwenLoadReference",
+    "inputs": {
+      "path": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_1.png"
+    },
+    "_meta": {
+      "title": "Uploaded reference 1"
+    }
+  },
+  "12": {
+    "class_type": "VNQwenLoadReference",
+    "inputs": {
+      "path": "61d2bfbcb43206a635023a5660305255a124e0db635ab23f22cae012d4f3a24e/image_2.png"
+    },
+    "_meta": {
+      "title": "Uploaded reference 2"
+    }
+  },
+  "13": {
+    "class_type": "VNQwenSpeedCanvas",
+    "inputs": {
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Speed canvas from LAST reference"
+    }
+  },
+  "14": {
+    "class_type": "VNQwenPrompt",
+    "inputs": {
+      "prefix": [
+        "5",
+        0
+      ],
+      "character": [
+        "6",
+        0
+      ],
+      "framing": [
+        "7",
+        0
+      ],
+      "style": [
+        "8",
+        0
+      ],
+      "constraints": [
+        "9",
+        0
+      ],
+      "suffix": [
+        "10",
+        0
+      ],
+      "action": "Shift her weight onto one leg with the opposite knee relaxed, moving the hips slightly toward screen-right. Turn the torso gently toward screen-left while keeping the face directed toward the viewer. Lean forward a little as if inviting a response. Extend one forearm toward screen-left at lower-chest height with the palm open upward and a clear gap between elbow and waist. Bend the other arm with its hand resting lightly at her waist. Give the shoulders a gentle opposing tilt to the hips. Friendly engaged smile, mouth slightly open, eyes on the viewer."
+    },
+    "_meta": {
+      "title": "Action - speaking"
+    }
+  },
+  "15": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "prompt": [
+        "14",
+        0
+      ],
+      "negative_prompt": "",
+      "vae": [
+        "3",
+        0
+      ],
+      "resolution": 1024,
+      "images.image_1": [
+        "11",
+        0
+      ],
+      "images.image_2": [
+        "12",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "RGBA references - speaking"
+    }
+  },
+  "16": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 12345,
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "15",
+        0
+      ],
+      "negative": [
+        "15",
+        1
+      ],
+      "latent_image": [
+        "13",
+        0
+      ],
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "Generate - speaking"
+    }
+  },
+  "17": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "16",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Native RGBA - speaking"
+    }
+  },
+  "18": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "17",
+        0
+      ],
+      "filename_prefix": "vn_qwen/sprite_speaking_rgba"
+    },
+    "_meta": {
+      "title": "Save RGBA - speaking"
+    }
+  }
+}

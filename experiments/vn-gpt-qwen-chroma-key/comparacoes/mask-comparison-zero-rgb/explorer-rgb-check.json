@@ -1,0 +1,326 @@
+[
+  {
+    "file": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\listening.png",
+    "mode": "RGBA",
+    "size": [
+      832,
+      1248
+    ],
+    "bins": [
+      {
+        "alpha": [
+          0,
+          0
+        ],
+        "pixels": 328347,
+        "pct": 31.622422799556215,
+        "nonzero_rgb_pixels": 0,
+        "mean_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "alpha": [
+          1,
+          1
+        ],
+        "pixels": 448572,
+        "pct": 43.201044748520715,
+        "nonzero_rgb_pixels": 448572,
+        "mean_rgb": [
+          162.35,
+          55.68,
+          205.74
+        ]
+      },
+      {
+        "alpha": [
+          2,
+          2
+        ],
+        "pixels": 3211,
+        "pct": 0.30924479166666663,
+        "nonzero_rgb_pixels": 3211,
+        "mean_rgb": [
+          47.24,
+          20.69,
+          57.76
+        ]
+      },
+      {
+        "alpha": [
+          3,
+          15
+        ],
+        "pixels": 11385,
+        "pct": 1.0964658838757397,
+        "nonzero_rgb_pixels": 11373,
+        "mean_rgb": [
+          21.28,
+          10.72,
+          23.79
+        ]
+      },
+      {
+        "alpha": [
+          16,
+          127
+        ],
+        "pixels": 10038,
+        "pct": 0.9667390902366864,
+        "nonzero_rgb_pixels": 7979,
+        "mean_rgb": [
+          11.87,
+          8.55,
+          12.82
+        ]
+      },
+      {
+        "alpha": [
+          128,
+          254
+        ],
+        "pixels": 44682,
+        "pct": 4.303231323964497,
+        "nonzero_rgb_pixels": 44631,
+        "mean_rgb": [
+          112.89,
+          105.64,
+          115.89
+        ]
+      },
+      {
+        "alpha": [
+          255,
+          255
+        ],
+        "pixels": 192101,
+        "pct": 18.50085136217949,
+        "nonzero_rgb_pixels": 192101,
+        "mean_rgb": [
+          101.8,
+          99.45,
+          113.14
+        ]
+      }
+    ]
+  },
+  {
+    "file": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\speaking.png",
+    "mode": "RGBA",
+    "size": [
+      832,
+      1248
+    ],
+    "bins": [
+      {
+        "alpha": [
+          0,
+          0
+        ],
+        "pixels": 360304,
+        "pct": 34.700135601577905,
+        "nonzero_rgb_pixels": 0,
+        "mean_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "alpha": [
+          1,
+          1
+        ],
+        "pixels": 421465,
+        "pct": 40.59042544995069,
+        "nonzero_rgb_pixels": 421465,
+        "mean_rgb": [
+          155.52,
+          53.6,
+          198.36
+        ]
+      },
+      {
+        "alpha": [
+          2,
+          2
+        ],
+        "pixels": 12546,
+        "pct": 1.208279400887574,
+        "nonzero_rgb_pixels": 12546,
+        "mean_rgb": [
+          99.3,
+          53.21,
+          124.99
+        ]
+      },
+      {
+        "alpha": [
+          3,
+          15
+        ],
+        "pixels": 6573,
+        "pct": 0.6330320821005917,
+        "nonzero_rgb_pixels": 6570,
+        "mean_rgb": [
+          54.42,
+          29.21,
+          69.26
+        ]
+      },
+      {
+        "alpha": [
+          16,
+          127
+        ],
+        "pixels": 6358,
+        "pct": 0.6123258752465484,
+        "nonzero_rgb_pixels": 6147,
+        "mean_rgb": [
+          29.11,
+          23.05,
+          27.96
+        ]
+      },
+      {
+        "alpha": [
+          128,
+          254
+        ],
+        "pixels": 47591,
+        "pct": 4.583391118096647,
+        "nonzero_rgb_pixels": 47591,
+        "mean_rgb": [
+          116.11,
+          108.28,
+          116.84
+        ]
+      },
+      {
+        "alpha": [
+          255,
+          255
+        ],
+        "pixels": 183499,
+        "pct": 17.67241047214004,
+        "nonzero_rgb_pixels": 183499,
+        "mean_rgb": [
+          103.88,
+          100.4,
+          113.11
+        ]
+      }
+    ]
+  },
+  {
+    "file": "D:\\gugu9\\Documents\\Faculdade\\9o_Periodo\\Criacomp\\Projeto Ferramenta\\output\\imagegen\\mask-comparison-zero-rgb\\current-cleaned\\thinking.png",
+    "mode": "RGBA",
+    "size": [
+      832,
+      1248
+    ],
+    "bins": [
+      {
+        "alpha": [
+          0,
+          0
+        ],
+        "pixels": 337440,
+        "pct": 32.49815088757396,
+        "nonzero_rgb_pixels": 0,
+        "mean_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "alpha": [
+          1,
+          1
+        ],
+        "pixels": 459644,
+        "pct": 44.26736624753452,
+        "nonzero_rgb_pixels": 459644,
+        "mean_rgb": [
+          161.56,
+          55.29,
+          204.87
+        ]
+      },
+      {
+        "alpha": [
+          2,
+          2
+        ],
+        "pixels": 2195,
+        "pct": 0.21139592578895464,
+        "nonzero_rgb_pixels": 2195,
+        "mean_rgb": [
+          35.74,
+          15.96,
+          42.49
+        ]
+      },
+      {
+        "alpha": [
+          3,
+          15
+        ],
+        "pixels": 6261,
+        "pct": 0.6029840051775148,
+        "nonzero_rgb_pixels": 6251,
+        "mean_rgb": [
+          16.27,
+          8.1,
+          17.62
+        ]
+      },
+      {
+        "alpha": [
+          16,
+          127
+        ],
+        "pixels": 7718,
+        "pct": 0.7433046720907298,
+        "nonzero_rgb_pixels": 6503,
+        "mean_rgb": [
+          13.16,
+          11.2,
+          13.88
+        ]
+      },
+      {
+        "alpha": [
+          128,
+          254
+        ],
+        "pixels": 43384,
+        "pct": 4.178223619329389,
+        "nonzero_rgb_pixels": 43370,
+        "mean_rgb": [
+          113.93,
+          107.92,
+          117.63
+        ]
+      },
+      {
+        "alpha": [
+          255,
+          255
+        ],
+        "pixels": 181694,
+        "pct": 17.49857464250493,
+        "nonzero_rgb_pixels": 181694,
+        "mean_rgb": [
+          101.96,
+          99.08,
+          111.72
+        ]
+      }
+    ]
+  }
+]
